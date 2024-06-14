@@ -1,0 +1,231 @@
+{
+  "events": [
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/api/headphone",
+        "request_method": "POST",
+        "headers": {
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJuYW1lIjoiQWJoaW1hbiBBIFYiLCJlbWFpbCI6Ind3dy5hYmhpNzA3QGdtYWlsLmNvbSIsImlkIjoiNjY0ZWU1YTIyMWNkYTc2MGUzZmM5MWY5In0sImlhdCI6MTcxNjQ0NjY0NCwiZXhwIjoxNzE2NDQ3MjQ0fQ.Vtj1jFE0A2YXckl772HaaVuOt_VvN2XfaQm2Oq18rd4",
+          "User-Agent": "PostmanRuntime/7.39.0",
+          "Accept": "*/*",
+          "Postman-Token": "0a3bd151-a7b7-49e3-9504-1d8980ec70c5",
+          "Host": "localhost:3010",
+          "Accept-Encoding": "gzip, deflate, br",
+          "Connection": "keep-alive",
+          "Content-Length": "427"
+        },
+        "protocol": "HTTP/1.1",
+        "normalized_path_info": "/headphone"
+      },
+      "id": 1,
+      "thread_id": 0,
+      "message": [
+        {
+          "name": "imageSrc",
+          "class": "String",
+          "value": "'https://rukminim2.flixcart.com/image/612/612/kigbjbk0-0/headphone/p/p/i/mgyh3hn-a-apple-original-imafy8wbdnh4kbkd.jpeg?q=70'"
+        },
+        {
+          "name": "title",
+          "class": "String",
+          "value": "'Apple New AirPods Max Bluetooth Headset'"
+        },
+        {
+          "name": "Price",
+          "class": "String",
+          "value": "'59999'"
+        },
+        {
+          "name": "description",
+          "class": "String",
+          "value": "'.With Mic:Yes .Bluetooth version: 5 .Apple-designed dynamic driver provides high-fidelity audio .Active Noise Cancellation blocks outside noise,'"
+        },
+        {
+          "name": "amount",
+          "class": "Number",
+          "value": "1"
+        },
+        {
+          "name": "star",
+          "class": "Number",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "id": 2,
+      "thread_id": 0,
+      "method_id": "insertOne",
+      "static": false,
+      "receiver": {
+        "class": "Collection",
+        "value": "[Collection headphoneschemas]",
+        "object_id": 1
+      },
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [
+            {
+              "name": "imageSrc",
+              "class": "String"
+            },
+            {
+              "name": "title",
+              "class": "String"
+            },
+            {
+              "name": "Price",
+              "class": "String"
+            },
+            {
+              "name": "description",
+              "class": "String"
+            },
+            {
+              "name": "amount",
+              "class": "Number"
+            },
+            {
+              "name": "_id",
+              "class": "ObjectId"
+            },
+            {
+              "name": "__v",
+              "class": "Number"
+            }
+          ],
+          "value": "{\n  imageSrc: 'https://rukminim2.flixcart.com/image/612/612/kigbjbk0-0/headphone/p/p/i/mgyh3hn-a-apple-original-imafy8wbdnh4kbkd.jpeg?q=70',\n  title: 'Apple New AirPods Max Bluetooth Headset',\n  Price: '59999',\n  description: '.With Mic:Yes .Bluetooth version: 5 .Apple-designed dynamic driver provides high-fidelity audio .Active Noise Cancellation blocks outside noise,',\n  amount: 1,\n  _id: ObjectId { buffer: [Buffer [Uint8Array]] },\n  __v: 0\n}",
+          "object_id": 2,
+          "name": "doc"
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 3,
+          "name": "options"
+        }
+      ],
+      "defined_class": "headphoneschemas",
+      "lineno": 1,
+      "path": "mongodb/headphoneschemas"
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 3,
+      "parent_id": 2,
+      "return_value": {
+        "class": "Promise<Object>",
+        "value": "Promise {\n  {\n    acknowledged: true,\n    insertedId: new ObjectId('66597aef27d28c7608987143')\n  }\n}",
+        "object_id": 4
+      },
+      "elapsed": 0.003542900005413685
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 200,
+        "headers": {
+          "X-Powered-By": "Express",
+          "Access-Control-Allow-Origin": "*",
+          "Content-Type": "application/json; charset=utf-8",
+          "Content-Length": "417",
+          "Etag": "W/\"1a1-nZRCDi/dh8XmyDph3gvZngirg10\""
+        },
+        "return_value": {
+          "class": "Object",
+          "properties": [
+            {
+              "name": "imageSrc",
+              "class": "String"
+            },
+            {
+              "name": "title",
+              "class": "String"
+            },
+            {
+              "name": "Price",
+              "class": "String"
+            },
+            {
+              "name": "description",
+              "class": "String"
+            },
+            {
+              "name": "amount",
+              "class": "Number"
+            },
+            {
+              "name": "_id",
+              "class": "String"
+            },
+            {
+              "name": "__v",
+              "class": "Number"
+            }
+          ],
+          "value": "{\n  imageSrc: 'https://rukminim2.flixcart.com/image/612/612/kigbjbk0-0/headphone/p/p/i/mgyh3hn-a-apple-original-imafy8wbdnh4kbkd.jpeg?q=70',\n  title: 'Apple New AirPods Max Bluetooth Headset',\n  Price: '59999',\n  description: '.With Mic:Yes .Bluetooth version: 5 .Apple-designed dynamic driver provides high-fidelity audio .Active Noise Cancellation blocks outside noise,',\n  amount: 1,\n  _id: '66597aef27d28c7608987143',\n  __v: 0\n}",
+          "object_id": 5
+        }
+      },
+      "id": 4,
+      "thread_id": 0,
+      "parent_id": 1,
+      "elapsed": 0.027043100002629217
+    }
+  ],
+  "version": "1.12",
+  "metadata": {
+    "client": {
+      "name": "appmap-node",
+      "version": "2.23.0",
+      "url": "https://github.com/getappmap/appmap-node"
+    },
+    "language": {
+      "name": "javascript",
+      "engine": "Node.js",
+      "version": "v21.7.3"
+    },
+    "app": "server",
+    "recorder": {
+      "type": "requests",
+      "name": "requests"
+    },
+    "name": "POST /api/headphone (200) — 2024-05-31T07:23:27.167Z"
+  },
+  "classMap": [
+    {
+      "name": "mongodb",
+      "type": "package",
+      "children": [
+        {
+          "type": "class",
+          "name": "headphoneschemas",
+          "children": [
+            {
+              "type": "function",
+              "name": "insertOne",
+              "static": false,
+              "location": "mongodb/headphoneschemas:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "http",
+      "name": "HTTP server requests",
+      "children": [
+        {
+          "type": "route",
+          "name": "POST /headphone"
+        }
+      ]
+    }
+  ]
+}

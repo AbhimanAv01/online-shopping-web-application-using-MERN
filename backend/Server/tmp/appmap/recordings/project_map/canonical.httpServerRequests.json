@@ -1,0 +1,97 @@
+[
+  {
+    "route": "GET /api/toplaptop",
+    "parameters": "()",
+    "status": null
+  },
+  {
+    "route": "GET /order",
+    "parameters": "()",
+    "status": 200
+  },
+  {
+    "route": "GET /order",
+    "parameters": "()",
+    "status": 304
+  },
+  {
+    "route": "GET /toplaptop",
+    "parameters": "()",
+    "status": 200
+  },
+  {
+    "route": "GET /toplaptop",
+    "parameters": "()",
+    "status": 304
+  },
+  {
+    "route": "GET /topmobiles",
+    "parameters": "()",
+    "status": 200
+  },
+  {
+    "route": "GET /topmobiles",
+    "parameters": "()",
+    "status": 304
+  },
+  {
+    "route": "GET /tv",
+    "parameters": "()",
+    "status": 200
+  },
+  {
+    "route": "GET /tv",
+    "parameters": "()",
+    "status": 304
+  },
+  {
+    "route": "OPTIONS /api/login",
+    "parameters": "()",
+    "status": 204
+  },
+  {
+    "route": "OPTIONS /api/mail",
+    "parameters": "()",
+    "status": 204
+  },
+  {
+    "route": "OPTIONS /api/order",
+    "parameters": "()",
+    "status": 204
+  },
+  {
+    "route": "OPTIONS /api/payment",
+    "parameters": "()",
+    "status": 204
+  },
+  {
+    "route": "OPTIONS /api/signup",
+    "parameters": "()",
+    "status": 204
+  },
+  {
+    "route": "POST /api/mail",
+    "parameters": "()",
+    "status": null
+  },
+  {
+    "route": "POST /login",
+    "parameters": "(email,password)",
+    "status": 200
+  },
+  {
+    "route": "POST /order",
+    "parameters": "(imageSrc,title,Price,amount,order_date)",
+    "status": 200
+  },
+  {
+    "route": "POST /payment",
+    "parameters": "(amount)",
+    "status": 201
+  },
+  {
+    "route": "POST /signup",
+    "parameters": "(username,email,password)",
+    "status": 201
+  }
+]

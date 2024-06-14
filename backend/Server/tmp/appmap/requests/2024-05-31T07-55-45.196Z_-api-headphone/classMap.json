@@ -1,0 +1,30 @@
+[
+  {
+    "name": "mongodb",
+    "type": "package",
+    "children": [
+      {
+        "type": "class",
+        "name": "headphoneschemas",
+        "children": [
+          {
+            "type": "function",
+            "name": "find",
+            "static": false,
+            "location": "mongodb/headphoneschemas:2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "http",
+    "name": "HTTP server requests",
+    "children": [
+      {
+        "type": "route",
+        "name": "GET /api/headphone"
+      }
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "route": "GET /api/topmobiles",
+    "parameters": "()",
+    "status": null
+  }
+]

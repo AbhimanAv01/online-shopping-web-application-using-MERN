@@ -1,0 +1,139 @@
+{
+  "events": [
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/api/order",
+        "request_method": "GET",
+        "headers": {
+          "Host": "localhost:3010",
+          "Connection": "keep-alive",
+          "Sec-Ch-Ua": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"",
+          "Accept": "application/json, text/plain, */*",
+          "Sec-Ch-Ua-Mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+          "Sec-Ch-Ua-Platform": "\"Windows\"",
+          "Origin": "http://localhost:3000",
+          "Sec-Fetch-Site": "same-site",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "http://localhost:3000/",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+          "If-None-Match": "W/\"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w\""
+        },
+        "protocol": "HTTP/1.1",
+        "normalized_path_info": "/order"
+      },
+      "id": 1,
+      "thread_id": 0
+    },
+    {
+      "event": "call",
+      "id": 2,
+      "thread_id": 0,
+      "method_id": "find",
+      "static": false,
+      "receiver": {
+        "class": "Collection",
+        "value": "[Collection orders]",
+        "object_id": 1
+      },
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 5,
+          "name": "filter"
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 6,
+          "name": "options"
+        }
+      ],
+      "defined_class": "orders",
+      "lineno": 1,
+      "path": "mongodb/orders"
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 3,
+      "parent_id": 2,
+      "return_value": {
+        "class": "FindCursor",
+        "value": "[FindCursor Mani_Project_IMR.orders]",
+        "object_id": 7
+      },
+      "elapsed": 0.00005269999383017421
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 304,
+        "headers": {
+          "X-Powered-By": "Express",
+          "Access-Control-Allow-Origin": "*",
+          "Etag": "W/\"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w\""
+        }
+      },
+      "id": 4,
+      "thread_id": 0,
+      "parent_id": 1,
+      "elapsed": 0.0033967000053962693
+    }
+  ],
+  "version": "1.12",
+  "metadata": {
+    "client": {
+      "name": "appmap-node",
+      "version": "2.23.0",
+      "url": "https://github.com/getappmap/appmap-node"
+    },
+    "language": {
+      "name": "javascript",
+      "engine": "Node.js",
+      "version": "v21.7.3"
+    },
+    "app": "server",
+    "recorder": {
+      "type": "requests",
+      "name": "requests"
+    },
+    "name": "GET /api/order (304) — 2024-05-31T16:36:26.734Z"
+  },
+  "classMap": [
+    {
+      "name": "mongodb",
+      "type": "package",
+      "children": [
+        {
+          "type": "class",
+          "name": "orders",
+          "children": [
+            {
+              "type": "function",
+              "name": "find",
+              "static": false,
+              "location": "mongodb/orders:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "http",
+      "name": "HTTP server requests",
+      "children": [
+        {
+          "type": "route",
+          "name": "GET /order"
+        }
+      ]
+    }
+  ]
+}

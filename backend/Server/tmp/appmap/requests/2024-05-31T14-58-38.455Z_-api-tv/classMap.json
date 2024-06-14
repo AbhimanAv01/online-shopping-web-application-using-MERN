@@ -1,0 +1,30 @@
+[
+  {
+    "name": "mongodb",
+    "type": "package",
+    "children": [
+      {
+        "type": "class",
+        "name": "tvs",
+        "children": [
+          {
+            "type": "function",
+            "name": "find",
+            "static": false,
+            "location": "mongodb/tvs:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "http",
+    "name": "HTTP server requests",
+    "children": [
+      {
+        "type": "route",
+        "name": "GET /api/tv"
+      }
+    ]
+  }
+]

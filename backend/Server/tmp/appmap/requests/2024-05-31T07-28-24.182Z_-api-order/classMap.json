@@ -1,0 +1,30 @@
+[
+  {
+    "name": "mongodb",
+    "type": "package",
+    "children": [
+      {
+        "type": "class",
+        "name": "orders",
+        "children": [
+          {
+            "type": "function",
+            "name": "find",
+            "static": false,
+            "location": "mongodb/orders:2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "http",
+    "name": "HTTP server requests",
+    "children": [
+      {
+        "type": "route",
+        "name": "GET /api/order"
+      }
+    ]
+  }
+]

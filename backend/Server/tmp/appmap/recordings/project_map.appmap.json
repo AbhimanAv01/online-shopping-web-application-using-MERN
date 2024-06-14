@@ -1,0 +1,3381 @@
+{
+  "events": [
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/api/order",
+        "request_method": "GET",
+        "headers": {
+          "Host": "localhost:3010",
+          "Connection": "keep-alive",
+          "Sec-Ch-Ua": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"",
+          "Accept": "application/json, text/plain, */*",
+          "Sec-Ch-Ua-Mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+          "Sec-Ch-Ua-Platform": "\"Windows\"",
+          "Origin": "http://localhost:3000",
+          "Sec-Fetch-Site": "same-site",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "http://localhost:3000/",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-US,en;q=0.9"
+        },
+        "protocol": "HTTP/1.1",
+        "normalized_path_info": "/order"
+      },
+      "id": 1,
+      "thread_id": 0
+    },
+    {
+      "event": "call",
+      "id": 2,
+      "thread_id": 0,
+      "method_id": "find",
+      "static": false,
+      "receiver": {
+        "class": "Collection",
+        "value": "[Collection orders]",
+        "object_id": 1
+      },
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 2,
+          "name": "filter"
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 3,
+          "name": "options"
+        }
+      ],
+      "defined_class": "orders",
+      "lineno": 1,
+      "path": "mongodb/orders"
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 3,
+      "parent_id": 2,
+      "return_value": {
+        "class": "FindCursor",
+        "value": "[FindCursor Mani_Project_IMR.orders]",
+        "object_id": 4
+      },
+      "elapsed": 0.0004973999966750853
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/api/toplaptop",
+        "request_method": "GET",
+        "headers": {
+          "Host": "localhost:3010",
+          "Connection": "keep-alive",
+          "Sec-Ch-Ua": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"",
+          "Accept": "application/json, text/plain, */*",
+          "Sec-Ch-Ua-Mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+          "Sec-Ch-Ua-Platform": "\"Windows\"",
+          "Origin": "http://localhost:3000",
+          "Sec-Fetch-Site": "same-site",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "http://localhost:3000/",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-US,en;q=0.9"
+        },
+        "protocol": "HTTP/1.1",
+        "normalized_path_info": "/toplaptop"
+      },
+      "id": 4,
+      "thread_id": 0
+    },
+    {
+      "event": "call",
+      "id": 5,
+      "thread_id": 0,
+      "method_id": "find",
+      "static": false,
+      "receiver": {
+        "class": "Collection",
+        "value": "[Collection toplaptops]",
+        "object_id": 5
+      },
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 6,
+          "name": "filter"
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 7,
+          "name": "options"
+        }
+      ],
+      "defined_class": "toplaptops",
+      "lineno": 2,
+      "path": "mongodb/toplaptops"
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 6,
+      "parent_id": 5,
+      "return_value": {
+        "class": "FindCursor",
+        "value": "[FindCursor Mani_Project_IMR.toplaptops]",
+        "object_id": 8
+      },
+      "elapsed": 0.00005289999535307288
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/api/topmobiles",
+        "request_method": "GET",
+        "headers": {
+          "Host": "localhost:3010",
+          "Connection": "keep-alive",
+          "Sec-Ch-Ua": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"",
+          "Accept": "application/json, text/plain, */*",
+          "Sec-Ch-Ua-Mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+          "Sec-Ch-Ua-Platform": "\"Windows\"",
+          "Origin": "http://localhost:3000",
+          "Sec-Fetch-Site": "same-site",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "http://localhost:3000/",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-US,en;q=0.9"
+        },
+        "protocol": "HTTP/1.1",
+        "normalized_path_info": "/topmobiles"
+      },
+      "id": 7,
+      "thread_id": 0
+    },
+    {
+      "event": "call",
+      "id": 8,
+      "thread_id": 0,
+      "method_id": "find",
+      "static": false,
+      "receiver": {
+        "class": "Collection",
+        "value": "[Collection topmobiles]",
+        "object_id": 9
+      },
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 10,
+          "name": "filter"
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 11,
+          "name": "options"
+        }
+      ],
+      "defined_class": "topmobiles",
+      "lineno": 3,
+      "path": "mongodb/topmobiles"
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 9,
+      "parent_id": 8,
+      "return_value": {
+        "class": "FindCursor",
+        "value": "[FindCursor Mani_Project_IMR.topmobiles]",
+        "object_id": 12
+      },
+      "elapsed": 0.00004400000034365803
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/api/tv",
+        "request_method": "GET",
+        "headers": {
+          "Host": "localhost:3010",
+          "Connection": "keep-alive",
+          "Sec-Ch-Ua": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"",
+          "Accept": "application/json, text/plain, */*",
+          "Sec-Ch-Ua-Mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+          "Sec-Ch-Ua-Platform": "\"Windows\"",
+          "Origin": "http://localhost:3000",
+          "Sec-Fetch-Site": "same-site",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "http://localhost:3000/",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-US,en;q=0.9"
+        },
+        "protocol": "HTTP/1.1",
+        "normalized_path_info": "/tv"
+      },
+      "id": 10,
+      "thread_id": 0
+    },
+    {
+      "event": "call",
+      "id": 11,
+      "thread_id": 0,
+      "method_id": "find",
+      "static": false,
+      "receiver": {
+        "class": "Collection",
+        "value": "[Collection tvs]",
+        "object_id": 13
+      },
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 14,
+          "name": "filter"
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 15,
+          "name": "options"
+        }
+      ],
+      "defined_class": "tvs",
+      "lineno": 4,
+      "path": "mongodb/tvs"
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 12,
+      "parent_id": 11,
+      "return_value": {
+        "class": "FindCursor",
+        "value": "[FindCursor Mani_Project_IMR.tvs]",
+        "object_id": 16
+      },
+      "elapsed": 0.00004030000127386302
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 200,
+        "headers": {
+          "X-Powered-By": "Express",
+          "Access-Control-Allow-Origin": "*",
+          "Content-Type": "application/json; charset=utf-8",
+          "Content-Length": "184",
+          "Etag": "W/\"b8-JXEszNqBAnu3mIJOCL/4mcxUY3E\""
+        },
+        "return_value": {
+          "class": "Array",
+          "items": {
+            "class": "Object",
+            "properties": [
+              {
+                "name": "_id",
+                "class": "String"
+              },
+              {
+                "name": "imageSrc",
+                "class": "String"
+              },
+              {
+                "name": "title",
+                "class": "String"
+              },
+              {
+                "name": "Price",
+                "class": "String"
+              },
+              {
+                "name": "amount",
+                "class": "Number"
+              },
+              {
+                "name": "order_date",
+                "class": "String"
+              },
+              {
+                "name": "__v",
+                "class": "Number"
+              }
+            ]
+          },
+          "value": "[\n  {\n    _id: '665411ef5c4d01f2eed5ac3f',\n    imageSrc: 'https://m.media-amazon.com/images/I/31uLEZHhMDL._AC_UY218_.jpg',\n    title: 'Lenovo V15',\n    Price: '20990',\n    amount: 1,\n    order_date: '',\n    __v: 0\n  }\n]",
+          "size": 1,
+          "object_id": 17
+        }
+      },
+      "id": 13,
+      "thread_id": 0,
+      "parent_id": 1,
+      "elapsed": 0.026514500001212582
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/api/order",
+        "request_method": "GET",
+        "headers": {
+          "Host": "localhost:3010",
+          "Connection": "keep-alive",
+          "Sec-Ch-Ua": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"",
+          "Accept": "application/json, text/plain, */*",
+          "Sec-Ch-Ua-Mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+          "Sec-Ch-Ua-Platform": "\"Windows\"",
+          "Origin": "http://localhost:3000",
+          "Sec-Fetch-Site": "same-site",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "http://localhost:3000/",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-US,en;q=0.9",
+          "If-None-Match": "W/\"b8-JXEszNqBAnu3mIJOCL/4mcxUY3E\""
+        },
+        "protocol": "HTTP/1.1",
+        "normalized_path_info": "/order"
+      },
+      "id": 14,
+      "thread_id": 0
+    },
+    {
+      "event": "call",
+      "id": 15,
+      "thread_id": 0,
+      "method_id": "find",
+      "static": false,
+      "receiver": {
+        "class": "Collection",
+        "value": "[Collection orders]",
+        "object_id": 1
+      },
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 18,
+          "name": "filter"
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 19,
+          "name": "options"
+        }
+      ],
+      "defined_class": "orders",
+      "lineno": 1,
+      "path": "mongodb/orders"
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 16,
+      "parent_id": 15,
+      "return_value": {
+        "class": "FindCursor",
+        "value": "[FindCursor Mani_Project_IMR.orders]",
+        "object_id": 20
+      },
+      "elapsed": 0.00005319999763742089
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 200,
+        "headers": {
+          "X-Powered-By": "Express",
+          "Access-Control-Allow-Origin": "*",
+          "Content-Type": "application/json; charset=utf-8",
+          "Content-Length": "1729",
+          "Etag": "W/\"6c1-Z6JIkNlB81rtF58RQmv+XSOM+tY\""
+        },
+        "return_value": {
+          "class": "[ResponseBody]",
+          "value": "[{\"_id\":\"6640bd32c57d158fb9a298c6\",\"imageSrc\":\"https://m.media-amazon.com/images/I/41-Z3UHKoQL._AC_UY218_.jpg\",\"title\":\"HP Laptop 15s\",\"Price\":\"35888\",\"description\":\"HP Laptop 15s, 12th Gen Intel Core i3, 15.6-inch (39.6 cm), 8GB DDR4, 512GB SSD, Thin & Light\",\"amount\":1,\"__v\":0},{\"_id\":\"6640bd7ec57d158fb9a298c8\",\"imageSrc\":\"https://m.media-amazon.com/images/I/31uLEZHhMDL._AC_UY218_.jpg\",\"title\":\"Lenovo V15\",\"Price\":\"20990\",\"description\":\"Lenovo V15 Intel Celeron N4500 15.6 (39.62 cm) FHD Antiglare 250 Nits Thin and Light Laptop\",\"amount\":1,\"__v\":0},{\"_id\":\"6640bdcbc57d158fb9a298ca\",\"imageSrc\":\"https://m.media-amazon.com/images/I/71lYhcc++AL._AC_UY218_.jpg\",\"title\":\"ASUS VivoBook 15 (2021)\",\"Price\":\"19890\",\"description\":\"ASUS VivoBook 15 (2021), 15.6-inch (39.62 cm) HD, Thin and Light Laptop \",\"amount\":1,\"__v\":0},{\"_id\":\"6640be32c57d158fb9a298cc\",\"imageSrc\":\"https://m.media-amazon.com/images/I/81+SKGgJ9yL._AC_UL320_.jpg\",\"title\":\"ASUS VivoBook 15 (2021)\",\"Price\":\"31000\",\"description\":\"Lenovo IdeaPad Slim 3 Intel Core i3 12th Gen 15.6 inch (39.62cm) FHD Thin & Light Laptop (8GB/256GB)\",\"amount\":1,\"__v\":0},{\"_id\":\"6640beb1c57d158fb9a298ce\",\"imageSrc\":\"https://m.media-amazon.com/images/I/71p1GQQCCWL._AC_UL320_.jpg\",\"title\":\"ASUS Vivobook 16\",\"Price\":\"35990\",\"description\":\"ASUS Vivobook 16, Intel®Core™ i3-1215U 12th Gen, 16-inch (40.64 cm) FHD+, Thin and Light Laptop(8GB/256GB)\",\"amount\":1,\"__v\":0},{\"_id\":\"6640bf46c57d158fb9a298d0\",\"imageSrc\":\"https://m.media-amazon.com/images/I/71mQMASiF7L._AC_UY218_.jpg\",\"title\":\"ASUS Vivobook Go 14 (2023)\",\"Price\":\"22990\",\"description\":\"ASUS Vivobook Go 14 (2023), 14 (35.56 cm) FHD (1920 x 1080) 16:9, Intel Celeron N4500, Thin and Light Laptop\",\"amount\":1,\"__v\":0}]... (3 more characters)"
+        }
+      },
+      "id": 17,
+      "thread_id": 0,
+      "parent_id": 4,
+      "elapsed": 0.019654400006402284
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 304,
+        "headers": {
+          "X-Powered-By": "Express",
+          "Access-Control-Allow-Origin": "*",
+          "Etag": "W/\"b8-JXEszNqBAnu3mIJOCL/4mcxUY3E\""
+        }
+      },
+      "id": 18,
+      "thread_id": 0,
+      "parent_id": 14,
+      "elapsed": 0.004378200006613042
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/api/toplaptop",
+        "request_method": "GET",
+        "headers": {
+          "Host": "localhost:3010",
+          "Connection": "keep-alive",
+          "Sec-Ch-Ua": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"",
+          "Accept": "application/json, text/plain, */*",
+          "Sec-Ch-Ua-Mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+          "Sec-Ch-Ua-Platform": "\"Windows\"",
+          "Origin": "http://localhost:3000",
+          "Sec-Fetch-Site": "same-site",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "http://localhost:3000/",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-US,en;q=0.9",
+          "If-None-Match": "W/\"6c1-Z6JIkNlB81rtF58RQmv+XSOM+tY\""
+        },
+        "protocol": "HTTP/1.1",
+        "normalized_path_info": "/toplaptop"
+      },
+      "id": 19,
+      "thread_id": 0
+    },
+    {
+      "event": "call",
+      "id": 20,
+      "thread_id": 0,
+      "method_id": "find",
+      "static": false,
+      "receiver": {
+        "class": "Collection",
+        "value": "[Collection toplaptops]",
+        "object_id": 5
+      },
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 21,
+          "name": "filter"
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 22,
+          "name": "options"
+        }
+      ],
+      "defined_class": "toplaptops",
+      "lineno": 2,
+      "path": "mongodb/toplaptops"
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 21,
+      "parent_id": 20,
+      "return_value": {
+        "class": "FindCursor",
+        "value": "[FindCursor Mani_Project_IMR.toplaptops]",
+        "object_id": 23
+      },
+      "elapsed": 0.00004780000017490238
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 304,
+        "headers": {
+          "X-Powered-By": "Express",
+          "Access-Control-Allow-Origin": "*",
+          "Etag": "W/\"6c1-Z6JIkNlB81rtF58RQmv+XSOM+tY\""
+        }
+      },
+      "id": 22,
+      "thread_id": 0,
+      "parent_id": 19,
+      "elapsed": 0.00282389999483712
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 200,
+        "headers": {
+          "X-Powered-By": "Express",
+          "Access-Control-Allow-Origin": "*",
+          "Content-Type": "application/json; charset=utf-8",
+          "Content-Length": "1751",
+          "Etag": "W/\"6d7-8pxaSqSnEDZsLPpJg8j1hY2e484\""
+        },
+        "return_value": {
+          "class": "Array",
+          "items": {
+            "class": "Object",
+            "properties": [
+              {
+                "name": "_id",
+                "class": "String"
+              },
+              {
+                "name": "imageSrc",
+                "class": "String"
+              },
+              {
+                "name": "title",
+                "class": "String"
+              },
+              {
+                "name": "Price",
+                "class": "String"
+              },
+              {
+                "name": "description",
+                "class": "String"
+              },
+              {
+                "name": "amount",
+                "class": "Number"
+              },
+              {
+                "name": "__v",
+                "class": "Number"
+              }
+            ]
+          },
+          "value": "[\n  {\n    _id: '6640606edb1288257dc8446e',\n    imageSrc: 'https://m.media-amazon.com/images/I/71o8VehMHXL._AC_UY218_.jpg',\n    title: 'OnePlus 12 ',\n    Price: '64999',\n    description: 'OnePlus 12 (Silky Black, 12GB RAM, 256GB Storage)',\n    amount: 1,\n    __v: 0\n  },\n  {\n    _id: '664060bbdb1288257dc84470',\n    imageSrc: 'https://m.media-amazon.com/images/I/81zU65mJmJL._AC_UY218_.jpg',\n    title: 'Xiaomi 14 Ultra',\n    Price: '99999',\n    description: 'Xiaomi 14 Ultra (White, 16GB RAM, 512GB Storage)',\n    amount: 1,\n    __v: 0\n  },\n  {\n    _id: '664060f5db1288257dc84472',\n    imageSrc: 'https://m.media-amazon.com/images/I/81CgtwSII3L._AC_UY218_.jpg',\n    title: 'Apple iPhone 15 Pro',\n    Price: '137990',\n    description: 'Apple iPhone 15 Pro (256 GB) - Natural Titanium',\n    amount: 1,\n    __v: 0\n  },\n  {\n    _id: '66406127db1288257dc84474',\n    imageSrc: 'https://m.media-amazon.com/images/I/71yliZMICyL._AC_UY218_.jpg',\n    title: 'Samsung Galaxy S24 5G',\n    Price: '79999',\n    description: 'Samsung Galaxy S24 5G AI Smartphone (Cobalt Violet, 8GB, 256GB Storage)',\n    amount: 1,\n    __v: 0\n  },\n  {\n    _id: '66406179db1288257dc84476',\n    imageSrc: 'https://m.media-amazon.com/images/I/81vxWpPpgNL._AC_UY218_.jpg',\n    title: 'Samsung Galaxy S24 Ultra 5G',\n    Price: '139999',\n    description: 'Samsung Galaxy S24 Ultra 5G AI Smartphone (Titanium Gray, 12GB, 512GB Storage)',\n    amount: 1,\n    __v: 0\n  },\n  {\n    _id: '6640621cdb1288257dc84478',\n    imageSrc: 'https://m.media-amazon.com/images/I/61VuVU94RnL._AC_UY218_.jpg',\n    title: 'Apple iPhone 13',\n    Price: '61890',\n    description: 'Apple iPhone 13 (256GB) - Midnight',\n    amount: 1,\n    __v: 0\n  },\n  {\n    _id: '664062b4db1288257dc8447a',\n    imageSrc: 'https://m.media-amazon.com/images/I/71RLYJvBidL._AC_UY218_.jpg',\n    title: 'Samsung Galaxy Z Fold5',\n    Price: '164999',\n    description: 'Samsung Galaxy Z Fold5 5G AI Smartphone (Black, 12GB RAM, 512GB Storage)',\n    amount: 1,\n    __v: 0\n  }\n]",
+          "size": 7,
+          "object_id": 24
+        }
+      },
+      "id": 23,
+      "thread_id": 0,
+      "parent_id": 7,
+      "elapsed": 0.02465210000082152
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/api/topmobiles",
+        "request_method": "GET",
+        "headers": {
+          "Host": "localhost:3010",
+          "Connection": "keep-alive",
+          "Sec-Ch-Ua": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"",
+          "Accept": "application/json, text/plain, */*",
+          "Sec-Ch-Ua-Mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+          "Sec-Ch-Ua-Platform": "\"Windows\"",
+          "Origin": "http://localhost:3000",
+          "Sec-Fetch-Site": "same-site",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "http://localhost:3000/",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-US,en;q=0.9",
+          "If-None-Match": "W/\"6d7-8pxaSqSnEDZsLPpJg8j1hY2e484\""
+        },
+        "protocol": "HTTP/1.1",
+        "normalized_path_info": "/topmobiles"
+      },
+      "id": 24,
+      "thread_id": 0
+    },
+    {
+      "event": "call",
+      "id": 25,
+      "thread_id": 0,
+      "method_id": "find",
+      "static": false,
+      "receiver": {
+        "class": "Collection",
+        "value": "[Collection topmobiles]",
+        "object_id": 9
+      },
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 25,
+          "name": "filter"
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 26,
+          "name": "options"
+        }
+      ],
+      "defined_class": "topmobiles",
+      "lineno": 3,
+      "path": "mongodb/topmobiles"
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 26,
+      "parent_id": 25,
+      "return_value": {
+        "class": "FindCursor",
+        "value": "[FindCursor Mani_Project_IMR.topmobiles]",
+        "object_id": 27
+      },
+      "elapsed": 0.0000720999960321933
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 304,
+        "headers": {
+          "X-Powered-By": "Express",
+          "Access-Control-Allow-Origin": "*",
+          "Etag": "W/\"6d7-8pxaSqSnEDZsLPpJg8j1hY2e484\""
+        }
+      },
+      "id": 27,
+      "thread_id": 0,
+      "parent_id": 24,
+      "elapsed": 0.0038191000057850033
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 200,
+        "headers": {
+          "X-Powered-By": "Express",
+          "Access-Control-Allow-Origin": "*",
+          "Content-Type": "application/json; charset=utf-8",
+          "Content-Length": "4469",
+          "Etag": "W/\"1175-7lfSpsYdNLPQuw3WNO6WsK8xGFM\""
+        },
+        "return_value": {
+          "class": "[ResponseBody]",
+          "value": "[{\"_id\":\"66518a805b7e22cfc1571c16\",\"imageSrc\":\"https://www.reliancedigital.in/medias/TCL-43C645-QLED-Smart-TV-493841838-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMDAyMTV8aW1hZ2UvanBlZ3xpbWFnZXMvaDE1L2g2NC8xMDA5MjkzMjY5NDA0Ni5qcGd8ZjdiMzg0ZTRmOTAyYWNiZGQyOTU5ZTcwMzdhNzg2MTAyMGM2YWM1MTUyM2UzNTVlMGM5NWIyZWNkZGQ4NjVmMw\",\"title\":\"TCL 43P635 108 cm (43 inch) Ultra HD (4K) LED Smart Google TV with \\\"Dolby Audio\\n& HDR10\\\"\",\"Price\":\"₹32999\",\"description\":\". Operating System: Google TV\\n. Ultra HD (4K) 3840 x 2160 Pixels\\n. Launch Year: 2022\\n. 2 Years Warranty on Product\",\"amount\":1,\"__v\":0,\"star\":\"4\"},{\"_id\":\"66518b455b7e22cfc1571c18\",\"imageSrc\":\"https://www.reliancedigital.in/medias/Xiaomi-ELA4692IN-Television-492571698-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w5MTQ0MHxpbWFnZS9qcGVnfGltYWdlcy9oNGIvaDAwLzk3MzU4MjM5NDk4NTQuanBnfDZlMGIxYjJjZTU0NDZlZDY1YzQ5MDUxYTJlMmQwODU4MzVhYzE0NjQwNjk3YjQyMmVmNTBkY2NiZDU3ZDdmN2Y\",\"title\":\"Mi X Series 108 cm (43 inch) Ultra HD (4K) LED Smart Google TV 2023 Edition with\\n4K Dolby Vision | HDR ...\",\"Price\":\"₹26999\",\"description\":\". Operating System: Google TV\\n. Ultra HD (4K) 3840 x 2160 Pixels\\n· Launch Year: 2023\\n. 1 Year Warranty on Product and 2 Years Warranty on Panel\",\"amount\":1,\"__v\":0,\"star\":\"5\"},{\"_id\":\"66518bad5b7e22cfc1571c1a\",\"imageSrc\":\"https://www.reliancedigital.in/medias/HISENSE-55U6G-Smart-LED-492338741-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w3MzI5NHxpbWFnZS9qcGVnfGltYWdlcy9oODYvaDZiLzk3NzkyMzI4MzM1NjYuanBnfDI4NjQ5NDE0ZGRjOWI5NTQ5NDA3NDhiNGRiMWE3NDllN2I0ZjYxNjlmODM1NzRhYTY0NWMwOGM0ZWM4NjMwMzQ\",\"title\":\"Hisense E7K 139 cm (55 inch) QLED Ultra HD (4K) Smart VIDAA TV With Dolby\\nVision and Atmos\",\"Price\":\"₹44990\",\"description\":\". Operating System: VIDAA\\n. Ultra HD (4K) 3840 x 2160 Pixels\\n· Launch Year: 2023\\n. 2 Years Comprehensive Warranty from on orders from 1st April 2024\",\"amount\":1,\"__v\":0,\"star\":\"4\"},{\"_id\":\"66518be55b7e22cfc1571c1c\",\"imageSrc\":\"https://www.reliancedigital.in/medias/Sansui-JSW55ASUHD-Televisions-491973454-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzNDg2OXxpbWFnZS9qcGVnfGltYWdlcy9oMDYvaDhiLzk4NTE0MTc3NTU2NzguanBnfDExMjQ0NzU0NWI4Y2I1ZGVlY2UyODQwMDAzNDVkMjBkYTJiYmZhZmZkMTMyYTI5MTMzMTIxMTAxNWE3YWMyN2Q\",\"title\":\"Sansui 80 cm (32 inch) HD Ready LED Smart Google TV 2023 Edition\",\"Price\":\"₹43990\",\"description\":\". Operating System: Google TV\\n. HD Ready 1366 x 768 Pixels\\n. Launch Year: 2023\\n. 1 Year Comprehensive Warranty on Product\",\"amount\":1,\"__v\":0,\"star\":\"4\"},{\"5\":\"\",\"_id\":\"66518c1b5b7e22cfc1571c1e\",\"imageSrc\":\"https://www.reliancedigital.in/medias/Sony-KD-55X75K-IN5-Television-492912658-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzNzQzOXxpbWFnZS9qcGVnfGltYWdlcy9oYTIvaDFjLzk4Mjg5MzUxMzkzNTguanBnfDA3NmU3MzgwM2IzMmYxZmZmNDY4OGNhY2ZiMDVlMjk4MzY4YmYwZDc5MTFiNzUyNmMwYTAwMzU5Y2FmNTE5Mzc\",\"title\":\"SONY Bravia 138.8 cm (55 inch) Ultra HD (4K) LED Smart Google TV\",\"Price\":\"₹62690\",\"description\":\". Operating System: Google TV\\n. Ultra HD (4K) 3840 x 2160 Pixels\\n. Launch Year: 2021\\n. 1 year Comprehensive warranty by the manufacture from the date of purchase\",\"amount\":1,\"__v\":0,\"star\":\"5\"},{\"_id\":\"66518c795b7e22cfc1571c20\",\"imageSrc\":\"https://www.reliancedigital.in/medias/Samsung-43Q60A-Television-492166301-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1NDkwNXxpbWFnZS9qcGVnfGltYWdlcy9oNDgvaGU1Lzk1NTU4MDQ3NDk4NTQuanBnfDIwOGM2ODQyN2M5OGQ2YmVmNmU0ZTg5NjUxMmVjZDg4MWIzM2QwNTIzYTg3NGE3Mzg4YTY3NmNhNTc4MWIwNmM\",\"title\":\"SAMSUNG Crystal Vision 4K iSmart with Voice Assistant 108 cm (43 inch) Ultra HD\\n(4K) LED Smart Tizen T ...\",\"Price\":\"₹39999\",\"description\":\". Operating System: Tizen\\n. Ultra HD (4K) 3840 x 2160 Pixels\\n. Launch Year: 2023\\n. 1 Year Comprehensive Warranty on Product and 1 Year Additional Warranty on Panel\",\"amount\":1,\"__v\":0,\"star\":\"5\"},{\"_id\":\"66518ca65b7e22cfc1571c22\",\"imageSrc\":\"https://www.reliancedigital.in/medias/Onida-43UIV-R-Television-492579413-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w3NDE3OXxpbWFnZS9qcGVnfGltYWdlcy9oMTEvaGZiLzk4NDczNzMyOTk3NDIuanBnfDQ5Yjc0NDVmYTEzMGEyNzM5MTMyYzZmMTk3ZWY1MDVhMmM2NzJkZDEwZDJiNGE0ZGZmZWZhZDkyZWFmNDE1NTg\",\"title\":\"ONIDA 108 cm (43 inch) Ultra HD (4K) LED Smart Google TV 2023 Edition with\\nDolby Atmos Vision & HDR10\",\"Price\":\"₹29999\",\"description\":\". Operating System: Google TV\\n. Ultra HD (4K) 3840 x 2160 Pixels\\n· Launch Year: 2023\\n. 1 Year Warranty on the Product\",\"amount\":1,\"__v\":0,\"star\":\"4\"}]... (17 more characters)"
+        }
+      },
+      "id": 28,
+      "thread_id": 0,
+      "parent_id": 10,
+      "elapsed": 0.09228810000058729
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/api/tv",
+        "request_method": "GET",
+        "headers": {
+          "Host": "localhost:3010",
+          "Connection": "keep-alive",
+          "Sec-Ch-Ua": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"",
+          "Accept": "application/json, text/plain, */*",
+          "Sec-Ch-Ua-Mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+          "Sec-Ch-Ua-Platform": "\"Windows\"",
+          "Origin": "http://localhost:3000",
+          "Sec-Fetch-Site": "same-site",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "http://localhost:3000/",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-US,en;q=0.9",
+          "If-None-Match": "W/\"1175-7lfSpsYdNLPQuw3WNO6WsK8xGFM\""
+        },
+        "protocol": "HTTP/1.1",
+        "normalized_path_info": "/tv"
+      },
+      "id": 29,
+      "thread_id": 0
+    },
+    {
+      "event": "call",
+      "id": 30,
+      "thread_id": 0,
+      "method_id": "find",
+      "static": false,
+      "receiver": {
+        "class": "Collection",
+        "value": "[Collection tvs]",
+        "object_id": 13
+      },
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 28,
+          "name": "filter"
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 29,
+          "name": "options"
+        }
+      ],
+      "defined_class": "tvs",
+      "lineno": 4,
+      "path": "mongodb/tvs"
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 31,
+      "parent_id": 30,
+      "return_value": {
+        "class": "FindCursor",
+        "value": "[FindCursor Mani_Project_IMR.tvs]",
+        "object_id": 30
+      },
+      "elapsed": 0.00007330000516958535
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 304,
+        "headers": {
+          "X-Powered-By": "Express",
+          "Access-Control-Allow-Origin": "*",
+          "Etag": "W/\"1175-7lfSpsYdNLPQuw3WNO6WsK8xGFM\""
+        }
+      },
+      "id": 32,
+      "thread_id": 0,
+      "parent_id": 29,
+      "elapsed": 0.0034601999941514805
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/api/signup",
+        "request_method": "OPTIONS",
+        "headers": {
+          "Host": "localhost:3010",
+          "Connection": "keep-alive",
+          "Accept": "*/*",
+          "Access-Control-Request-Method": "POST",
+          "Access-Control-Request-Headers": "content-type",
+          "Origin": "http://localhost:3000",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Site": "same-site",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "http://localhost:3000/",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-US,en;q=0.9"
+        },
+        "protocol": "HTTP/1.1"
+      },
+      "id": 33,
+      "thread_id": 0
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 204,
+        "headers": {
+          "X-Powered-By": "Express",
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Methods": "GET,HEAD,PUT,PATCH,POST,DELETE",
+          "Vary": "Access-Control-Request-Headers",
+          "Access-Control-Allow-Headers": "content-type",
+          "Content-Length": "0"
+        }
+      },
+      "id": 34,
+      "thread_id": 0,
+      "parent_id": 33,
+      "elapsed": 0.001053199994203169
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/api/signup",
+        "request_method": "POST",
+        "headers": {
+          "Host": "localhost:3010",
+          "Connection": "keep-alive",
+          "Content-Length": "68",
+          "Sec-Ch-Ua": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"",
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Sec-Ch-Ua-Mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+          "Sec-Ch-Ua-Platform": "\"Windows\"",
+          "Origin": "http://localhost:3000",
+          "Sec-Fetch-Site": "same-site",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "http://localhost:3000/",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-US,en;q=0.9"
+        },
+        "protocol": "HTTP/1.1",
+        "normalized_path_info": "/signup"
+      },
+      "id": 35,
+      "thread_id": 0,
+      "message": [
+        {
+          "name": "username",
+          "class": "String",
+          "value": "'test707'"
+        },
+        {
+          "name": "email",
+          "class": "String",
+          "value": "'test707@gmail.com'"
+        },
+        {
+          "name": "password",
+          "class": "String",
+          "value": "'1234'"
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "id": 36,
+      "thread_id": 0,
+      "method_id": "findOne",
+      "static": false,
+      "receiver": {
+        "class": "Collection",
+        "value": "[Collection users]",
+        "object_id": 31
+      },
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [
+            {
+              "name": "email",
+              "class": "String"
+            }
+          ],
+          "value": "{ email: 'test707@gmail.com' }",
+          "object_id": 32,
+          "name": "filter"
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 33,
+          "name": "options"
+        }
+      ],
+      "defined_class": "users",
+      "lineno": 5,
+      "path": "mongodb/users"
+    },
+    {
+      "event": "call",
+      "id": 37,
+      "thread_id": 0,
+      "method_id": "find",
+      "static": false,
+      "receiver": {
+        "class": "Collection",
+        "value": "[Collection users]",
+        "object_id": 31
+      },
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [
+            {
+              "name": "email",
+              "class": "String"
+            }
+          ],
+          "value": "{ email: 'test707@gmail.com' }",
+          "object_id": 32,
+          "name": "filter"
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 33,
+          "name": "options"
+        }
+      ],
+      "defined_class": "users",
+      "lineno": 6,
+      "path": "mongodb/users"
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 38,
+      "parent_id": 37,
+      "return_value": {
+        "class": "FindCursor",
+        "value": "[FindCursor Mani_Project_IMR.users]",
+        "object_id": 34
+      },
+      "elapsed": 0.00014569999621016905
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 39,
+      "parent_id": 36,
+      "return_value": {
+        "class": "Promise<object>",
+        "value": "Promise { null }",
+        "object_id": 35
+      },
+      "elapsed": 0.015880699997069314
+    },
+    {
+      "event": "call",
+      "id": 40,
+      "thread_id": 0,
+      "method_id": "insertOne",
+      "static": false,
+      "receiver": {
+        "class": "Collection",
+        "value": "[Collection users]",
+        "object_id": 31
+      },
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [
+            {
+              "name": "username",
+              "class": "String"
+            },
+            {
+              "name": "email",
+              "class": "String"
+            },
+            {
+              "name": "password",
+              "class": "String"
+            },
+            {
+              "name": "_id",
+              "class": "ObjectId"
+            },
+            {
+              "name": "__v",
+              "class": "Number"
+            }
+          ],
+          "value": "{\n  username: 'test707',\n  email: 'test707@gmail.com',\n  password: '$2b$10$N4sKXwYutkWmk5ShJplyQOAlyLYynR62v5Gx1IlfjGFnfccQxN3ci',\n  _id: ObjectId { buffer: [Buffer [Uint8Array]] },\n  __v: 0\n}",
+          "object_id": 36,
+          "name": "doc"
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 37,
+          "name": "options"
+        }
+      ],
+      "defined_class": "users",
+      "lineno": 7,
+      "path": "mongodb/users"
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 41,
+      "parent_id": 40,
+      "return_value": {
+        "class": "Promise<Object>",
+        "value": "Promise {\n  {\n    acknowledged: true,\n    insertedId: new ObjectId('665975a54b040e8b862be81f')\n  }\n}",
+        "object_id": 38
+      },
+      "elapsed": 0.023046100002829917
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 201,
+        "headers": {
+          "X-Powered-By": "Express",
+          "Access-Control-Allow-Origin": "*",
+          "Content-Type": "application/json; charset=utf-8",
+          "Content-Length": "62",
+          "Etag": "W/\"3e-pEzjMr7xHp496hxuPejbHCWYjgU\""
+        },
+        "return_value": {
+          "class": "Object",
+          "properties": [
+            {
+              "name": "_id",
+              "class": "String"
+            },
+            {
+              "name": "email",
+              "class": "String"
+            }
+          ],
+          "value": "{ _id: '665975a54b040e8b862be81f', email: 'test707@gmail.com' }",
+          "object_id": 39
+        }
+      },
+      "id": 42,
+      "thread_id": 0,
+      "parent_id": 35,
+      "elapsed": 0.11869429999933345
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/api/login",
+        "request_method": "OPTIONS",
+        "headers": {
+          "Host": "localhost:3010",
+          "Connection": "keep-alive",
+          "Accept": "*/*",
+          "Access-Control-Request-Method": "POST",
+          "Access-Control-Request-Headers": "content-type",
+          "Origin": "http://localhost:3000",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Site": "same-site",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "http://localhost:3000/",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-US,en;q=0.9"
+        },
+        "protocol": "HTTP/1.1"
+      },
+      "id": 43,
+      "thread_id": 0
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 204,
+        "headers": {
+          "X-Powered-By": "Express",
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Methods": "GET,HEAD,PUT,PATCH,POST,DELETE",
+          "Vary": "Access-Control-Request-Headers",
+          "Access-Control-Allow-Headers": "content-type",
+          "Content-Length": "0"
+        }
+      },
+      "id": 44,
+      "thread_id": 0,
+      "parent_id": 43,
+      "elapsed": 0.0006476000053226016
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/api/login",
+        "request_method": "POST",
+        "headers": {
+          "Host": "localhost:3010",
+          "Connection": "keep-alive",
+          "Content-Length": "47",
+          "Sec-Ch-Ua": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"",
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Sec-Ch-Ua-Mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+          "Sec-Ch-Ua-Platform": "\"Windows\"",
+          "Origin": "http://localhost:3000",
+          "Sec-Fetch-Site": "same-site",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "http://localhost:3000/",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-US,en;q=0.9"
+        },
+        "protocol": "HTTP/1.1",
+        "normalized_path_info": "/login"
+      },
+      "id": 45,
+      "thread_id": 0,
+      "message": [
+        {
+          "name": "email",
+          "class": "String",
+          "value": "'test707@gmail.com'"
+        },
+        {
+          "name": "password",
+          "class": "String",
+          "value": "'1234'"
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "id": 46,
+      "thread_id": 0,
+      "method_id": "findOne",
+      "static": false,
+      "receiver": {
+        "class": "Collection",
+        "value": "[Collection users]",
+        "object_id": 31
+      },
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [
+            {
+              "name": "email",
+              "class": "String"
+            }
+          ],
+          "value": "{ email: 'test707@gmail.com' }",
+          "object_id": 40,
+          "name": "filter"
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 41,
+          "name": "options"
+        }
+      ],
+      "defined_class": "users",
+      "lineno": 5,
+      "path": "mongodb/users"
+    },
+    {
+      "event": "call",
+      "id": 47,
+      "thread_id": 0,
+      "method_id": "find",
+      "static": false,
+      "receiver": {
+        "class": "Collection",
+        "value": "[Collection users]",
+        "object_id": 31
+      },
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [
+            {
+              "name": "email",
+              "class": "String"
+            }
+          ],
+          "value": "{ email: 'test707@gmail.com' }",
+          "object_id": 40,
+          "name": "filter"
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 41,
+          "name": "options"
+        }
+      ],
+      "defined_class": "users",
+      "lineno": 6,
+      "path": "mongodb/users"
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 48,
+      "parent_id": 47,
+      "return_value": {
+        "class": "FindCursor",
+        "value": "[FindCursor Mani_Project_IMR.users]",
+        "object_id": 42
+      },
+      "elapsed": 0.00009729999874252826
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 49,
+      "parent_id": 46,
+      "return_value": {
+        "class": "Promise<Object>",
+        "value": "Promise {\n  {\n    _id: new ObjectId('665975a54b040e8b862be81f'),\n    username: 'test707',\n    email: 'test707@gmail.com',\n    password: '$2b$10$N4sKXwYutkWmk5ShJplyQOAlyLYynR62v5Gx1IlfjGFnfccQxN3ci',\n    __v: 0\n  }\n}",
+        "object_id": 43
+      },
+      "elapsed": 0.0015236999970511533
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 200,
+        "headers": {
+          "X-Powered-By": "Express",
+          "Access-Control-Allow-Origin": "*",
+          "Content-Type": "application/json; charset=utf-8",
+          "Content-Length": "287",
+          "Etag": "W/\"11f-mj2wH25vxL4Caj2TKLhn6UB4a24\""
+        },
+        "return_value": {
+          "class": "Object",
+          "properties": [
+            {
+              "name": "accessToken",
+              "class": "String"
+            },
+            {
+              "name": "username",
+              "class": "String"
+            }
+          ],
+          "value": "{\n  accessToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJuYW1lIjoidGVzdDcwNyIsImVtYWlsIjoidGVzdDcwN0BnbWFpbC5jb20iLCJpZCI6IjY2NTk3NWE1NGIwNDBlOGI4NjJiZTgxZiJ9LCJpYXQiOjE3MTcxMzg4NjcsImV4cCI6MTcxNzEzOTQ2N30.bkPS1K2yPJwM_pTwV_EQwpTis9Eq06aTY_DziZMFWeA',\n  username: 'test707'\n}",
+          "object_id": 44
+        }
+      },
+      "id": 50,
+      "thread_id": 0,
+      "parent_id": 45,
+      "elapsed": 0.05834299999696668
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/api/toplaptop",
+        "request_method": "GET",
+        "headers": {
+          "Host": "localhost:3010",
+          "Connection": "keep-alive",
+          "Sec-Ch-Ua": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"",
+          "Accept": "application/json, text/plain, */*",
+          "Sec-Ch-Ua-Mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+          "Sec-Ch-Ua-Platform": "\"Windows\"",
+          "Origin": "http://localhost:3000",
+          "Sec-Fetch-Site": "same-site",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "http://localhost:3000/",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-US,en;q=0.9",
+          "If-None-Match": "W/\"6c1-Z6JIkNlB81rtF58RQmv+XSOM+tY\""
+        },
+        "protocol": "HTTP/1.1",
+        "normalized_path_info": "/toplaptop"
+      },
+      "id": 51,
+      "thread_id": 0
+    },
+    {
+      "event": "call",
+      "id": 52,
+      "thread_id": 0,
+      "method_id": "find",
+      "static": false,
+      "receiver": {
+        "class": "Collection",
+        "value": "[Collection toplaptops]",
+        "object_id": 5
+      },
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 45,
+          "name": "filter"
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 46,
+          "name": "options"
+        }
+      ],
+      "defined_class": "toplaptops",
+      "lineno": 2,
+      "path": "mongodb/toplaptops"
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 53,
+      "parent_id": 52,
+      "return_value": {
+        "class": "FindCursor",
+        "value": "[FindCursor Mani_Project_IMR.toplaptops]",
+        "object_id": 47
+      },
+      "elapsed": 0.00007660000119358301
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/api/topmobiles",
+        "request_method": "GET",
+        "headers": {
+          "Host": "localhost:3010",
+          "Connection": "keep-alive",
+          "Sec-Ch-Ua": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"",
+          "Accept": "application/json, text/plain, */*",
+          "Sec-Ch-Ua-Mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+          "Sec-Ch-Ua-Platform": "\"Windows\"",
+          "Origin": "http://localhost:3000",
+          "Sec-Fetch-Site": "same-site",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "http://localhost:3000/",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-US,en;q=0.9",
+          "If-None-Match": "W/\"6d7-8pxaSqSnEDZsLPpJg8j1hY2e484\""
+        },
+        "protocol": "HTTP/1.1",
+        "normalized_path_info": "/topmobiles"
+      },
+      "id": 54,
+      "thread_id": 0
+    },
+    {
+      "event": "call",
+      "id": 55,
+      "thread_id": 0,
+      "method_id": "find",
+      "static": false,
+      "receiver": {
+        "class": "Collection",
+        "value": "[Collection topmobiles]",
+        "object_id": 9
+      },
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 48,
+          "name": "filter"
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 49,
+          "name": "options"
+        }
+      ],
+      "defined_class": "topmobiles",
+      "lineno": 3,
+      "path": "mongodb/topmobiles"
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 56,
+      "parent_id": 55,
+      "return_value": {
+        "class": "FindCursor",
+        "value": "[FindCursor Mani_Project_IMR.topmobiles]",
+        "object_id": 50
+      },
+      "elapsed": 0.000029499999072868377
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/api/tv",
+        "request_method": "GET",
+        "headers": {
+          "Host": "localhost:3010",
+          "Connection": "keep-alive",
+          "Sec-Ch-Ua": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"",
+          "Accept": "application/json, text/plain, */*",
+          "Sec-Ch-Ua-Mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+          "Sec-Ch-Ua-Platform": "\"Windows\"",
+          "Origin": "http://localhost:3000",
+          "Sec-Fetch-Site": "same-site",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "http://localhost:3000/",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-US,en;q=0.9",
+          "If-None-Match": "W/\"1175-7lfSpsYdNLPQuw3WNO6WsK8xGFM\""
+        },
+        "protocol": "HTTP/1.1",
+        "normalized_path_info": "/tv"
+      },
+      "id": 57,
+      "thread_id": 0
+    },
+    {
+      "event": "call",
+      "id": 58,
+      "thread_id": 0,
+      "method_id": "find",
+      "static": false,
+      "receiver": {
+        "class": "Collection",
+        "value": "[Collection tvs]",
+        "object_id": 13
+      },
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 51,
+          "name": "filter"
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 52,
+          "name": "options"
+        }
+      ],
+      "defined_class": "tvs",
+      "lineno": 4,
+      "path": "mongodb/tvs"
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 59,
+      "parent_id": 58,
+      "return_value": {
+        "class": "FindCursor",
+        "value": "[FindCursor Mani_Project_IMR.tvs]",
+        "object_id": 53
+      },
+      "elapsed": 0.000019099999917671084
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 304,
+        "headers": {
+          "X-Powered-By": "Express",
+          "Access-Control-Allow-Origin": "*",
+          "Etag": "W/\"6c1-Z6JIkNlB81rtF58RQmv+XSOM+tY\""
+        }
+      },
+      "id": 60,
+      "thread_id": 0,
+      "parent_id": 51,
+      "elapsed": 0.004992100002709776
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 304,
+        "headers": {
+          "X-Powered-By": "Express",
+          "Access-Control-Allow-Origin": "*",
+          "Etag": "W/\"6d7-8pxaSqSnEDZsLPpJg8j1hY2e484\""
+        }
+      },
+      "id": 61,
+      "thread_id": 0,
+      "parent_id": 54,
+      "elapsed": 0.004274400002032053
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 304,
+        "headers": {
+          "X-Powered-By": "Express",
+          "Access-Control-Allow-Origin": "*",
+          "Etag": "W/\"1175-7lfSpsYdNLPQuw3WNO6WsK8xGFM\""
+        }
+      },
+      "id": 62,
+      "thread_id": 0,
+      "parent_id": 57,
+      "elapsed": 0.0052092999976594
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/api/toplaptop",
+        "request_method": "GET",
+        "headers": {
+          "Host": "localhost:3010",
+          "Connection": "keep-alive",
+          "Sec-Ch-Ua": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"",
+          "Accept": "application/json, text/plain, */*",
+          "Sec-Ch-Ua-Mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+          "Sec-Ch-Ua-Platform": "\"Windows\"",
+          "Origin": "http://localhost:3000",
+          "Sec-Fetch-Site": "same-site",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "http://localhost:3000/",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-US,en;q=0.9",
+          "If-None-Match": "W/\"6c1-Z6JIkNlB81rtF58RQmv+XSOM+tY\""
+        },
+        "protocol": "HTTP/1.1",
+        "normalized_path_info": "/toplaptop"
+      },
+      "id": 63,
+      "thread_id": 0
+    },
+    {
+      "event": "call",
+      "id": 64,
+      "thread_id": 0,
+      "method_id": "find",
+      "static": false,
+      "receiver": {
+        "class": "Collection",
+        "value": "[Collection toplaptops]",
+        "object_id": 5
+      },
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 54,
+          "name": "filter"
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 55,
+          "name": "options"
+        }
+      ],
+      "defined_class": "toplaptops",
+      "lineno": 2,
+      "path": "mongodb/toplaptops"
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 65,
+      "parent_id": 64,
+      "return_value": {
+        "class": "FindCursor",
+        "value": "[FindCursor Mani_Project_IMR.toplaptops]",
+        "object_id": 56
+      },
+      "elapsed": 0.00006159999611554667
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/api/topmobiles",
+        "request_method": "GET",
+        "headers": {
+          "Host": "localhost:3010",
+          "Connection": "keep-alive",
+          "Sec-Ch-Ua": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"",
+          "Accept": "application/json, text/plain, */*",
+          "Sec-Ch-Ua-Mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+          "Sec-Ch-Ua-Platform": "\"Windows\"",
+          "Origin": "http://localhost:3000",
+          "Sec-Fetch-Site": "same-site",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "http://localhost:3000/",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-US,en;q=0.9",
+          "If-None-Match": "W/\"6d7-8pxaSqSnEDZsLPpJg8j1hY2e484\""
+        },
+        "protocol": "HTTP/1.1",
+        "normalized_path_info": "/topmobiles"
+      },
+      "id": 66,
+      "thread_id": 0
+    },
+    {
+      "event": "call",
+      "id": 67,
+      "thread_id": 0,
+      "method_id": "find",
+      "static": false,
+      "receiver": {
+        "class": "Collection",
+        "value": "[Collection topmobiles]",
+        "object_id": 9
+      },
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 57,
+          "name": "filter"
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 58,
+          "name": "options"
+        }
+      ],
+      "defined_class": "topmobiles",
+      "lineno": 3,
+      "path": "mongodb/topmobiles"
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 68,
+      "parent_id": 67,
+      "return_value": {
+        "class": "FindCursor",
+        "value": "[FindCursor Mani_Project_IMR.topmobiles]",
+        "object_id": 59
+      },
+      "elapsed": 0.000055999997130129486
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/api/tv",
+        "request_method": "GET",
+        "headers": {
+          "Host": "localhost:3010",
+          "Connection": "keep-alive",
+          "Sec-Ch-Ua": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"",
+          "Accept": "application/json, text/plain, */*",
+          "Sec-Ch-Ua-Mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+          "Sec-Ch-Ua-Platform": "\"Windows\"",
+          "Origin": "http://localhost:3000",
+          "Sec-Fetch-Site": "same-site",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "http://localhost:3000/",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-US,en;q=0.9",
+          "If-None-Match": "W/\"1175-7lfSpsYdNLPQuw3WNO6WsK8xGFM\""
+        },
+        "protocol": "HTTP/1.1",
+        "normalized_path_info": "/tv"
+      },
+      "id": 69,
+      "thread_id": 0
+    },
+    {
+      "event": "call",
+      "id": 70,
+      "thread_id": 0,
+      "method_id": "find",
+      "static": false,
+      "receiver": {
+        "class": "Collection",
+        "value": "[Collection tvs]",
+        "object_id": 13
+      },
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 60,
+          "name": "filter"
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 61,
+          "name": "options"
+        }
+      ],
+      "defined_class": "tvs",
+      "lineno": 4,
+      "path": "mongodb/tvs"
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 71,
+      "parent_id": 70,
+      "return_value": {
+        "class": "FindCursor",
+        "value": "[FindCursor Mani_Project_IMR.tvs]",
+        "object_id": 62
+      },
+      "elapsed": 0.00006549999670824036
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 304,
+        "headers": {
+          "X-Powered-By": "Express",
+          "Access-Control-Allow-Origin": "*",
+          "Etag": "W/\"6c1-Z6JIkNlB81rtF58RQmv+XSOM+tY\""
+        }
+      },
+      "id": 72,
+      "thread_id": 0,
+      "parent_id": 63,
+      "elapsed": 0.008904800000891555
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 304,
+        "headers": {
+          "X-Powered-By": "Express",
+          "Access-Control-Allow-Origin": "*",
+          "Etag": "W/\"6d7-8pxaSqSnEDZsLPpJg8j1hY2e484\""
+        }
+      },
+      "id": 73,
+      "thread_id": 0,
+      "parent_id": 66,
+      "elapsed": 0.00824339999962831
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 304,
+        "headers": {
+          "X-Powered-By": "Express",
+          "Access-Control-Allow-Origin": "*",
+          "Etag": "W/\"1175-7lfSpsYdNLPQuw3WNO6WsK8xGFM\""
+        }
+      },
+      "id": 74,
+      "thread_id": 0,
+      "parent_id": 69,
+      "elapsed": 0.006358400001772679
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/api/payment",
+        "request_method": "OPTIONS",
+        "headers": {
+          "Host": "localhost:3010",
+          "Connection": "keep-alive",
+          "Accept": "*/*",
+          "Access-Control-Request-Method": "POST",
+          "Access-Control-Request-Headers": "content-type",
+          "Origin": "http://localhost:3000",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Site": "same-site",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "http://localhost:3000/",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-US,en;q=0.9"
+        },
+        "protocol": "HTTP/1.1"
+      },
+      "id": 75,
+      "thread_id": 0
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 204,
+        "headers": {
+          "X-Powered-By": "Express",
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Methods": "GET,HEAD,PUT,PATCH,POST,DELETE",
+          "Vary": "Access-Control-Request-Headers",
+          "Access-Control-Allow-Headers": "content-type",
+          "Content-Length": "0"
+        }
+      },
+      "id": 76,
+      "thread_id": 0,
+      "parent_id": 75,
+      "elapsed": 0.0004669999980251305
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/api/payment",
+        "request_method": "POST",
+        "headers": {
+          "Host": "localhost:3010",
+          "Connection": "keep-alive",
+          "Content-Length": "18",
+          "Sec-Ch-Ua": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"",
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Sec-Ch-Ua-Mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+          "Sec-Ch-Ua-Platform": "\"Windows\"",
+          "Origin": "http://localhost:3000",
+          "Sec-Fetch-Site": "same-site",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "http://localhost:3000/",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-US,en;q=0.9"
+        },
+        "protocol": "HTTP/1.1",
+        "normalized_path_info": "/payment"
+      },
+      "id": 77,
+      "thread_id": 0,
+      "message": [
+        {
+          "name": "amount",
+          "class": "String",
+          "value": "'20990'"
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "http_client_request": {
+        "request_method": "POST",
+        "url": "https://api.razorpay.com/v1/orders",
+        "headers": {
+          "User-Agent": "razorpay-node@2.9.3",
+          "Host": "api.razorpay.com",
+          "Authorization": "Basic cnpwX3Rlc3RfR1pRV3NueGZ1OGY1N0k6d242ekh5WEdNd0ROb2tjMW9yRmZuNWI0",
+          "Accept": "application/json",
+          "Content-Type": "application/json",
+          "Content-Length": "54"
+        }
+      },
+      "id": 78,
+      "thread_id": 0
+    },
+    {
+      "event": "return",
+      "http_client_response": {
+        "status_code": 200,
+        "headers": {
+          "Date": "Fri, 31 May 2024 07:02:03 GMT",
+          "Content-Type": "application/json",
+          "Content-Length": "215",
+          "Connection": "keep-alive",
+          "Strict-Transport-Security": "max-age=315360000; includeSubDomains",
+          "Vary": "Origin",
+          "Via": "rws",
+          "X-Xss-Protection": "0"
+        },
+        "return_value": {
+          "class": "Object",
+          "properties": [
+            {
+              "name": "amount",
+              "class": "Number"
+            },
+            {
+              "name": "amount_due",
+              "class": "Number"
+            },
+            {
+              "name": "amount_paid",
+              "class": "Number"
+            },
+            {
+              "name": "attempts",
+              "class": "Number"
+            },
+            {
+              "name": "created_at",
+              "class": "Number"
+            },
+            {
+              "name": "currency",
+              "class": "String"
+            },
+            {
+              "name": "entity",
+              "class": "String"
+            },
+            {
+              "name": "id",
+              "class": "String"
+            },
+            {
+              "name": "notes",
+              "class": "Array"
+            },
+            {
+              "name": "offer_id",
+              "class": "object"
+            },
+            {
+              "name": "receipt",
+              "class": "String"
+            },
+            {
+              "name": "status",
+              "class": "String"
+            }
+          ],
+          "value": "{\n  amount: 20990,\n  amount_due: 20990,\n  amount_paid: 0,\n  attempts: 0,\n  created_at: 1717138923,\n  currency: 'INR',\n  entity: 'order',\n  id: 'order_OH0kuhUHdqEnYm',\n  notes: [],\n  offer_id: null,\n  receipt: 'qwsaq1',\n  status: 'created'\n}",
+          "object_id": 63
+        }
+      },
+      "id": 79,
+      "thread_id": 0,
+      "parent_id": 78,
+      "elapsed": 0.922093599998334
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 201,
+        "headers": {
+          "X-Powered-By": "Express",
+          "Access-Control-Allow-Origin": "*",
+          "Content-Type": "application/json; charset=utf-8",
+          "Content-Length": "257",
+          "Etag": "W/\"101-1gCp17a0Wwx7l19NwX9k/fgZr/I\""
+        },
+        "return_value": {
+          "class": "Object",
+          "properties": [
+            {
+              "name": "success",
+              "class": "Boolean"
+            },
+            {
+              "name": "order",
+              "class": "Object",
+              "properties": [
+                {
+                  "name": "amount",
+                  "class": "Number"
+                },
+                {
+                  "name": "amount_due",
+                  "class": "Number"
+                },
+                {
+                  "name": "amount_paid",
+                  "class": "Number"
+                },
+                {
+                  "name": "attempts",
+                  "class": "Number"
+                },
+                {
+                  "name": "created_at",
+                  "class": "Number"
+                },
+                {
+                  "name": "currency",
+                  "class": "String"
+                },
+                {
+                  "name": "entity",
+                  "class": "String"
+                },
+                {
+                  "name": "id",
+                  "class": "String"
+                },
+                {
+                  "name": "notes",
+                  "class": "Array"
+                },
+                {
+                  "name": "offer_id",
+                  "class": "object"
+                },
+                {
+                  "name": "receipt",
+                  "class": "String"
+                },
+                {
+                  "name": "status",
+                  "class": "String"
+                }
+              ]
+            },
+            {
+              "name": "amount",
+              "class": "String"
+            }
+          ],
+          "value": "{\n  success: true,\n  order: {\n    amount: 20990,\n    amount_due: 20990,\n    amount_paid: 0,\n    attempts: 0,\n    created_at: 1717138923,\n    currency: 'INR',\n    entity: 'order',\n    id: 'order_OH0kuhUHdqEnYm',\n    notes: [],\n    offer_id: null,\n    receipt: 'qwsaq1',\n    status: 'created'\n  },\n  amount: '20990'\n}",
+          "object_id": 64
+        }
+      },
+      "id": 80,
+      "thread_id": 0,
+      "parent_id": 77,
+      "elapsed": 0.9489815999986604
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/api/order",
+        "request_method": "OPTIONS",
+        "headers": {
+          "Host": "localhost:3010",
+          "Connection": "keep-alive",
+          "Accept": "*/*",
+          "Access-Control-Request-Method": "POST",
+          "Access-Control-Request-Headers": "content-type",
+          "Origin": "http://localhost:3000",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Site": "same-site",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "http://localhost:3000/",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-US,en;q=0.9"
+        },
+        "protocol": "HTTP/1.1"
+      },
+      "id": 81,
+      "thread_id": 0
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 204,
+        "headers": {
+          "X-Powered-By": "Express",
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Methods": "GET,HEAD,PUT,PATCH,POST,DELETE",
+          "Vary": "Access-Control-Request-Headers",
+          "Access-Control-Allow-Headers": "content-type",
+          "Content-Length": "0"
+        }
+      },
+      "id": 82,
+      "thread_id": 0,
+      "parent_id": 81,
+      "elapsed": 0.0004675999953178689
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/api/order",
+        "request_method": "POST",
+        "headers": {
+          "Host": "localhost:3010",
+          "Connection": "keep-alive",
+          "Content-Length": "141",
+          "Sec-Ch-Ua": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"",
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Sec-Ch-Ua-Mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+          "Sec-Ch-Ua-Platform": "\"Windows\"",
+          "Origin": "http://localhost:3000",
+          "Sec-Fetch-Site": "same-site",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "http://localhost:3000/",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-US,en;q=0.9"
+        },
+        "protocol": "HTTP/1.1",
+        "normalized_path_info": "/order"
+      },
+      "id": 83,
+      "thread_id": 0,
+      "message": [
+        {
+          "name": "imageSrc",
+          "class": "String",
+          "value": "'https://m.media-amazon.com/images/I/31uLEZHhMDL._AC_UY218_.jpg'"
+        },
+        {
+          "name": "title",
+          "class": "String",
+          "value": "'Lenovo V15'"
+        },
+        {
+          "name": "Price",
+          "class": "String",
+          "value": "'20990'"
+        },
+        {
+          "name": "amount",
+          "class": "Number",
+          "value": "1"
+        },
+        {
+          "name": "order_date",
+          "class": "String",
+          "value": "''"
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "id": 84,
+      "thread_id": 0,
+      "method_id": "insertOne",
+      "static": false,
+      "receiver": {
+        "class": "Collection",
+        "value": "[Collection orders]",
+        "object_id": 1
+      },
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [
+            {
+              "name": "imageSrc",
+              "class": "String"
+            },
+            {
+              "name": "title",
+              "class": "String"
+            },
+            {
+              "name": "Price",
+              "class": "String"
+            },
+            {
+              "name": "amount",
+              "class": "Number"
+            },
+            {
+              "name": "order_date",
+              "class": "String"
+            },
+            {
+              "name": "_id",
+              "class": "ObjectId"
+            },
+            {
+              "name": "__v",
+              "class": "Number"
+            }
+          ],
+          "value": "{\n  imageSrc: 'https://m.media-amazon.com/images/I/31uLEZHhMDL._AC_UY218_.jpg',\n  title: 'Lenovo V15',\n  Price: '20990',\n  amount: 1,\n  order_date: '',\n  _id: ObjectId { buffer: [Buffer [Uint8Array]] },\n  __v: 0\n}",
+          "object_id": 65,
+          "name": "doc"
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 66,
+          "name": "options"
+        }
+      ],
+      "defined_class": "orders",
+      "lineno": 8,
+      "path": "mongodb/orders"
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 85,
+      "parent_id": 84,
+      "return_value": {
+        "class": "Promise<Object>",
+        "value": "Promise {\n  {\n    acknowledged: true,\n    insertedId: new ObjectId('665976174b040e8b862be828')\n  }\n}",
+        "object_id": 67
+      },
+      "elapsed": 0.009299099998315796
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 200,
+        "headers": {
+          "X-Powered-By": "Express",
+          "Access-Control-Allow-Origin": "*",
+          "Content-Type": "application/json; charset=utf-8",
+          "Content-Length": "182",
+          "Etag": "W/\"b6-DvGpSHuM3umu+yMEyz33V2REzaA\""
+        },
+        "return_value": {
+          "class": "Object",
+          "properties": [
+            {
+              "name": "imageSrc",
+              "class": "String"
+            },
+            {
+              "name": "title",
+              "class": "String"
+            },
+            {
+              "name": "Price",
+              "class": "String"
+            },
+            {
+              "name": "amount",
+              "class": "Number"
+            },
+            {
+              "name": "order_date",
+              "class": "String"
+            },
+            {
+              "name": "_id",
+              "class": "String"
+            },
+            {
+              "name": "__v",
+              "class": "Number"
+            }
+          ],
+          "value": "{\n  imageSrc: 'https://m.media-amazon.com/images/I/31uLEZHhMDL._AC_UY218_.jpg',\n  title: 'Lenovo V15',\n  Price: '20990',\n  amount: 1,\n  order_date: '',\n  _id: '665976174b040e8b862be828',\n  __v: 0\n}",
+          "object_id": 68
+        }
+      },
+      "id": 86,
+      "thread_id": 0,
+      "parent_id": 83,
+      "elapsed": 0.012418400001479313
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/api/mail",
+        "request_method": "OPTIONS",
+        "headers": {
+          "Host": "localhost:3010",
+          "Connection": "keep-alive",
+          "Accept": "*/*",
+          "Access-Control-Request-Method": "POST",
+          "Access-Control-Request-Headers": "content-type",
+          "Origin": "http://localhost:3000",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Site": "same-site",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "http://localhost:3000/",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-US,en;q=0.9"
+        },
+        "protocol": "HTTP/1.1"
+      },
+      "id": 87,
+      "thread_id": 0
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 204,
+        "headers": {
+          "X-Powered-By": "Express",
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Methods": "GET,HEAD,PUT,PATCH,POST,DELETE",
+          "Vary": "Access-Control-Request-Headers",
+          "Access-Control-Allow-Headers": "content-type",
+          "Content-Length": "0"
+        }
+      },
+      "id": 88,
+      "thread_id": 0,
+      "parent_id": 87,
+      "elapsed": 0.0007551000016974285
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/api/mail",
+        "request_method": "POST",
+        "headers": {
+          "Host": "localhost:3010",
+          "Connection": "keep-alive",
+          "Content-Length": "38",
+          "Sec-Ch-Ua": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"",
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Sec-Ch-Ua-Mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+          "Sec-Ch-Ua-Platform": "\"Windows\"",
+          "Origin": "http://localhost:3000",
+          "Sec-Fetch-Site": "same-site",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "http://localhost:3000/",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-US,en;q=0.9"
+        },
+        "protocol": "HTTP/1.1"
+      },
+      "id": 89,
+      "thread_id": 0
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/api/toplaptop",
+        "request_method": "GET",
+        "headers": {
+          "Host": "localhost:3010",
+          "Connection": "keep-alive",
+          "Sec-Ch-Ua": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"",
+          "Accept": "application/json, text/plain, */*",
+          "Sec-Ch-Ua-Mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+          "Sec-Ch-Ua-Platform": "\"Windows\"",
+          "Origin": "http://localhost:3000",
+          "Sec-Fetch-Site": "same-site",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "http://localhost:3000/",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-US,en;q=0.9",
+          "If-None-Match": "W/\"6c1-Z6JIkNlB81rtF58RQmv+XSOM+tY\""
+        },
+        "protocol": "HTTP/1.1"
+      },
+      "id": 90,
+      "thread_id": 0
+    },
+    {
+      "event": "call",
+      "id": 91,
+      "thread_id": 0,
+      "method_id": "find",
+      "static": false,
+      "receiver": {
+        "class": "Collection",
+        "value": "[Collection toplaptops]",
+        "object_id": 5
+      },
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 69,
+          "name": "filter"
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 70,
+          "name": "options"
+        }
+      ],
+      "defined_class": "toplaptops",
+      "lineno": 2,
+      "path": "mongodb/toplaptops"
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 92,
+      "parent_id": 91,
+      "return_value": {
+        "class": "FindCursor",
+        "value": "[FindCursor Mani_Project_IMR.toplaptops]",
+        "object_id": 71
+      },
+      "elapsed": 0.0001694999955361709
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/api/order",
+        "request_method": "GET",
+        "headers": {
+          "Host": "localhost:3010",
+          "Connection": "keep-alive",
+          "Sec-Ch-Ua": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"",
+          "Accept": "application/json, text/plain, */*",
+          "Sec-Ch-Ua-Mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+          "Sec-Ch-Ua-Platform": "\"Windows\"",
+          "Origin": "http://localhost:3000",
+          "Sec-Fetch-Site": "same-site",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "http://localhost:3000/",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-US,en;q=0.9"
+        },
+        "protocol": "HTTP/1.1",
+        "normalized_path_info": "/order"
+      },
+      "id": 93,
+      "thread_id": 0
+    },
+    {
+      "event": "call",
+      "id": 94,
+      "thread_id": 0,
+      "method_id": "find",
+      "static": false,
+      "receiver": {
+        "class": "Collection",
+        "value": "[Collection orders]",
+        "object_id": 1
+      },
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 72,
+          "name": "filter"
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 73,
+          "name": "options"
+        }
+      ],
+      "defined_class": "orders",
+      "lineno": 1,
+      "path": "mongodb/orders"
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 95,
+      "parent_id": 94,
+      "return_value": {
+        "class": "FindCursor",
+        "value": "[FindCursor Mani_Project_IMR.orders]",
+        "object_id": 74
+      },
+      "elapsed": 0.00005650000093737617
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/api/toplaptop",
+        "request_method": "GET",
+        "headers": {
+          "Host": "localhost:3010",
+          "Connection": "keep-alive",
+          "Sec-Ch-Ua": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"",
+          "Accept": "application/json, text/plain, */*",
+          "Sec-Ch-Ua-Mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+          "Sec-Ch-Ua-Platform": "\"Windows\"",
+          "Origin": "http://localhost:3000",
+          "Sec-Fetch-Site": "same-site",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "http://localhost:3000/",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-US,en;q=0.9"
+        },
+        "protocol": "HTTP/1.1",
+        "normalized_path_info": "/toplaptop"
+      },
+      "id": 96,
+      "thread_id": 0
+    },
+    {
+      "event": "call",
+      "id": 97,
+      "thread_id": 0,
+      "method_id": "find",
+      "static": false,
+      "receiver": {
+        "class": "Collection",
+        "value": "[Collection toplaptops]",
+        "object_id": 5
+      },
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 75,
+          "name": "filter"
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 76,
+          "name": "options"
+        }
+      ],
+      "defined_class": "toplaptops",
+      "lineno": 2,
+      "path": "mongodb/toplaptops"
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 98,
+      "parent_id": 97,
+      "return_value": {
+        "class": "FindCursor",
+        "value": "[FindCursor Mani_Project_IMR.toplaptops]",
+        "object_id": 77
+      },
+      "elapsed": 0.000040099999750964344
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/api/topmobiles",
+        "request_method": "GET",
+        "headers": {
+          "Host": "localhost:3010",
+          "Connection": "keep-alive",
+          "Sec-Ch-Ua": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"",
+          "Accept": "application/json, text/plain, */*",
+          "Sec-Ch-Ua-Mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+          "Sec-Ch-Ua-Platform": "\"Windows\"",
+          "Origin": "http://localhost:3000",
+          "Sec-Fetch-Site": "same-site",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "http://localhost:3000/",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-US,en;q=0.9"
+        },
+        "protocol": "HTTP/1.1",
+        "normalized_path_info": "/topmobiles"
+      },
+      "id": 99,
+      "thread_id": 0
+    },
+    {
+      "event": "call",
+      "id": 100,
+      "thread_id": 0,
+      "method_id": "find",
+      "static": false,
+      "receiver": {
+        "class": "Collection",
+        "value": "[Collection topmobiles]",
+        "object_id": 9
+      },
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 78,
+          "name": "filter"
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 79,
+          "name": "options"
+        }
+      ],
+      "defined_class": "topmobiles",
+      "lineno": 3,
+      "path": "mongodb/topmobiles"
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 101,
+      "parent_id": 100,
+      "return_value": {
+        "class": "FindCursor",
+        "value": "[FindCursor Mani_Project_IMR.topmobiles]",
+        "object_id": 80
+      },
+      "elapsed": 0.00005080000119050965
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/api/tv",
+        "request_method": "GET",
+        "headers": {
+          "Host": "localhost:3010",
+          "Connection": "keep-alive",
+          "Sec-Ch-Ua": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"",
+          "Accept": "application/json, text/plain, */*",
+          "Sec-Ch-Ua-Mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+          "Sec-Ch-Ua-Platform": "\"Windows\"",
+          "Origin": "http://localhost:3000",
+          "Sec-Fetch-Site": "same-site",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "http://localhost:3000/",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-US,en;q=0.9"
+        },
+        "protocol": "HTTP/1.1",
+        "normalized_path_info": "/tv"
+      },
+      "id": 102,
+      "thread_id": 0
+    },
+    {
+      "event": "call",
+      "id": 103,
+      "thread_id": 0,
+      "method_id": "find",
+      "static": false,
+      "receiver": {
+        "class": "Collection",
+        "value": "[Collection tvs]",
+        "object_id": 13
+      },
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 81,
+          "name": "filter"
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 82,
+          "name": "options"
+        }
+      ],
+      "defined_class": "tvs",
+      "lineno": 4,
+      "path": "mongodb/tvs"
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 104,
+      "parent_id": 103,
+      "return_value": {
+        "class": "FindCursor",
+        "value": "[FindCursor Mani_Project_IMR.tvs]",
+        "object_id": 83
+      },
+      "elapsed": 0.00004189999890513718
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 200,
+        "headers": {
+          "X-Powered-By": "Express",
+          "Access-Control-Allow-Origin": "*",
+          "Content-Type": "application/json; charset=utf-8",
+          "Content-Length": "367",
+          "Etag": "W/\"16f-BH4fWRom6cA1Fbl9p6oj7vClDHI\""
+        },
+        "return_value": {
+          "class": "Array",
+          "items": {
+            "class": "Object",
+            "properties": [
+              {
+                "name": "_id",
+                "class": "String"
+              },
+              {
+                "name": "imageSrc",
+                "class": "String"
+              },
+              {
+                "name": "title",
+                "class": "String"
+              },
+              {
+                "name": "Price",
+                "class": "String"
+              },
+              {
+                "name": "amount",
+                "class": "Number"
+              },
+              {
+                "name": "order_date",
+                "class": "String"
+              },
+              {
+                "name": "__v",
+                "class": "Number"
+              }
+            ]
+          },
+          "value": "[\n  {\n    _id: '665411ef5c4d01f2eed5ac3f',\n    imageSrc: 'https://m.media-amazon.com/images/I/31uLEZHhMDL._AC_UY218_.jpg',\n    title: 'Lenovo V15',\n    Price: '20990',\n    amount: 1,\n    order_date: '',\n    __v: 0\n  },\n  {\n    _id: '665976174b040e8b862be828',\n    imageSrc: 'https://m.media-amazon.com/images/I/31uLEZHhMDL._AC_UY218_.jpg',\n    title: 'Lenovo V15',\n    Price: '20990',\n    amount: 1,\n    order_date: '',\n    __v: 0\n  }\n]",
+          "size": 2,
+          "object_id": 84
+        }
+      },
+      "id": 105,
+      "thread_id": 0,
+      "parent_id": 93,
+      "elapsed": 0.007857800002966542
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 200,
+        "headers": {
+          "X-Powered-By": "Express",
+          "Access-Control-Allow-Origin": "*",
+          "Content-Type": "application/json; charset=utf-8",
+          "Content-Length": "1729",
+          "Etag": "W/\"6c1-Z6JIkNlB81rtF58RQmv+XSOM+tY\""
+        },
+        "return_value": {
+          "class": "[ResponseBody]",
+          "value": "[{\"_id\":\"6640bd32c57d158fb9a298c6\",\"imageSrc\":\"https://m.media-amazon.com/images/I/41-Z3UHKoQL._AC_UY218_.jpg\",\"title\":\"HP Laptop 15s\",\"Price\":\"35888\",\"description\":\"HP Laptop 15s, 12th Gen Intel Core i3, 15.6-inch (39.6 cm), 8GB DDR4, 512GB SSD, Thin & Light\",\"amount\":1,\"__v\":0},{\"_id\":\"6640bd7ec57d158fb9a298c8\",\"imageSrc\":\"https://m.media-amazon.com/images/I/31uLEZHhMDL._AC_UY218_.jpg\",\"title\":\"Lenovo V15\",\"Price\":\"20990\",\"description\":\"Lenovo V15 Intel Celeron N4500 15.6 (39.62 cm) FHD Antiglare 250 Nits Thin and Light Laptop\",\"amount\":1,\"__v\":0},{\"_id\":\"6640bdcbc57d158fb9a298ca\",\"imageSrc\":\"https://m.media-amazon.com/images/I/71lYhcc++AL._AC_UY218_.jpg\",\"title\":\"ASUS VivoBook 15 (2021)\",\"Price\":\"19890\",\"description\":\"ASUS VivoBook 15 (2021), 15.6-inch (39.62 cm) HD, Thin and Light Laptop \",\"amount\":1,\"__v\":0},{\"_id\":\"6640be32c57d158fb9a298cc\",\"imageSrc\":\"https://m.media-amazon.com/images/I/81+SKGgJ9yL._AC_UL320_.jpg\",\"title\":\"ASUS VivoBook 15 (2021)\",\"Price\":\"31000\",\"description\":\"Lenovo IdeaPad Slim 3 Intel Core i3 12th Gen 15.6 inch (39.62cm) FHD Thin & Light Laptop (8GB/256GB)\",\"amount\":1,\"__v\":0},{\"_id\":\"6640beb1c57d158fb9a298ce\",\"imageSrc\":\"https://m.media-amazon.com/images/I/71p1GQQCCWL._AC_UL320_.jpg\",\"title\":\"ASUS Vivobook 16\",\"Price\":\"35990\",\"description\":\"ASUS Vivobook 16, Intel®Core™ i3-1215U 12th Gen, 16-inch (40.64 cm) FHD+, Thin and Light Laptop(8GB/256GB)\",\"amount\":1,\"__v\":0},{\"_id\":\"6640bf46c57d158fb9a298d0\",\"imageSrc\":\"https://m.media-amazon.com/images/I/71mQMASiF7L._AC_UY218_.jpg\",\"title\":\"ASUS Vivobook Go 14 (2023)\",\"Price\":\"22990\",\"description\":\"ASUS Vivobook Go 14 (2023), 14 (35.56 cm) FHD (1920 x 1080) 16:9, Intel Celeron N4500, Thin and Light Laptop\",\"amount\":1,\"__v\":0}]... (3 more characters)"
+        }
+      },
+      "id": 106,
+      "thread_id": 0,
+      "parent_id": 96,
+      "elapsed": 0.007861300000513438
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 200,
+        "headers": {
+          "X-Powered-By": "Express",
+          "Access-Control-Allow-Origin": "*",
+          "Content-Type": "application/json; charset=utf-8",
+          "Content-Length": "1751",
+          "Etag": "W/\"6d7-8pxaSqSnEDZsLPpJg8j1hY2e484\""
+        },
+        "return_value": {
+          "class": "Array",
+          "items": {
+            "class": "Object",
+            "properties": [
+              {
+                "name": "_id",
+                "class": "String"
+              },
+              {
+                "name": "imageSrc",
+                "class": "String"
+              },
+              {
+                "name": "title",
+                "class": "String"
+              },
+              {
+                "name": "Price",
+                "class": "String"
+              },
+              {
+                "name": "description",
+                "class": "String"
+              },
+              {
+                "name": "amount",
+                "class": "Number"
+              },
+              {
+                "name": "__v",
+                "class": "Number"
+              }
+            ]
+          },
+          "value": "[\n  {\n    _id: '6640606edb1288257dc8446e',\n    imageSrc: 'https://m.media-amazon.com/images/I/71o8VehMHXL._AC_UY218_.jpg',\n    title: 'OnePlus 12 ',\n    Price: '64999',\n    description: 'OnePlus 12 (Silky Black, 12GB RAM, 256GB Storage)',\n    amount: 1,\n    __v: 0\n  },\n  {\n    _id: '664060bbdb1288257dc84470',\n    imageSrc: 'https://m.media-amazon.com/images/I/81zU65mJmJL._AC_UY218_.jpg',\n    title: 'Xiaomi 14 Ultra',\n    Price: '99999',\n    description: 'Xiaomi 14 Ultra (White, 16GB RAM, 512GB Storage)',\n    amount: 1,\n    __v: 0\n  },\n  {\n    _id: '664060f5db1288257dc84472',\n    imageSrc: 'https://m.media-amazon.com/images/I/81CgtwSII3L._AC_UY218_.jpg',\n    title: 'Apple iPhone 15 Pro',\n    Price: '137990',\n    description: 'Apple iPhone 15 Pro (256 GB) - Natural Titanium',\n    amount: 1,\n    __v: 0\n  },\n  {\n    _id: '66406127db1288257dc84474',\n    imageSrc: 'https://m.media-amazon.com/images/I/71yliZMICyL._AC_UY218_.jpg',\n    title: 'Samsung Galaxy S24 5G',\n    Price: '79999',\n    description: 'Samsung Galaxy S24 5G AI Smartphone (Cobalt Violet, 8GB, 256GB Storage)',\n    amount: 1,\n    __v: 0\n  },\n  {\n    _id: '66406179db1288257dc84476',\n    imageSrc: 'https://m.media-amazon.com/images/I/81vxWpPpgNL._AC_UY218_.jpg',\n    title: 'Samsung Galaxy S24 Ultra 5G',\n    Price: '139999',\n    description: 'Samsung Galaxy S24 Ultra 5G AI Smartphone (Titanium Gray, 12GB, 512GB Storage)',\n    amount: 1,\n    __v: 0\n  },\n  {\n    _id: '6640621cdb1288257dc84478',\n    imageSrc: 'https://m.media-amazon.com/images/I/61VuVU94RnL._AC_UY218_.jpg',\n    title: 'Apple iPhone 13',\n    Price: '61890',\n    description: 'Apple iPhone 13 (256GB) - Midnight',\n    amount: 1,\n    __v: 0\n  },\n  {\n    _id: '664062b4db1288257dc8447a',\n    imageSrc: 'https://m.media-amazon.com/images/I/71RLYJvBidL._AC_UY218_.jpg',\n    title: 'Samsung Galaxy Z Fold5',\n    Price: '164999',\n    description: 'Samsung Galaxy Z Fold5 5G AI Smartphone (Black, 12GB RAM, 512GB Storage)',\n    amount: 1,\n    __v: 0\n  }\n]",
+          "size": 7,
+          "object_id": 85
+        }
+      },
+      "id": 107,
+      "thread_id": 0,
+      "parent_id": 99,
+      "elapsed": 0.00826519999827724
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 200,
+        "headers": {
+          "X-Powered-By": "Express",
+          "Access-Control-Allow-Origin": "*",
+          "Content-Type": "application/json; charset=utf-8",
+          "Content-Length": "4469",
+          "Etag": "W/\"1175-7lfSpsYdNLPQuw3WNO6WsK8xGFM\""
+        },
+        "return_value": {
+          "class": "[ResponseBody]",
+          "value": "[{\"_id\":\"66518a805b7e22cfc1571c16\",\"imageSrc\":\"https://www.reliancedigital.in/medias/TCL-43C645-QLED-Smart-TV-493841838-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMDAyMTV8aW1hZ2UvanBlZ3xpbWFnZXMvaDE1L2g2NC8xMDA5MjkzMjY5NDA0Ni5qcGd8ZjdiMzg0ZTRmOTAyYWNiZGQyOTU5ZTcwMzdhNzg2MTAyMGM2YWM1MTUyM2UzNTVlMGM5NWIyZWNkZGQ4NjVmMw\",\"title\":\"TCL 43P635 108 cm (43 inch) Ultra HD (4K) LED Smart Google TV with \\\"Dolby Audio\\n& HDR10\\\"\",\"Price\":\"₹32999\",\"description\":\". Operating System: Google TV\\n. Ultra HD (4K) 3840 x 2160 Pixels\\n. Launch Year: 2022\\n. 2 Years Warranty on Product\",\"amount\":1,\"__v\":0,\"star\":\"4\"},{\"_id\":\"66518b455b7e22cfc1571c18\",\"imageSrc\":\"https://www.reliancedigital.in/medias/Xiaomi-ELA4692IN-Television-492571698-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w5MTQ0MHxpbWFnZS9qcGVnfGltYWdlcy9oNGIvaDAwLzk3MzU4MjM5NDk4NTQuanBnfDZlMGIxYjJjZTU0NDZlZDY1YzQ5MDUxYTJlMmQwODU4MzVhYzE0NjQwNjk3YjQyMmVmNTBkY2NiZDU3ZDdmN2Y\",\"title\":\"Mi X Series 108 cm (43 inch) Ultra HD (4K) LED Smart Google TV 2023 Edition with\\n4K Dolby Vision | HDR ...\",\"Price\":\"₹26999\",\"description\":\". Operating System: Google TV\\n. Ultra HD (4K) 3840 x 2160 Pixels\\n· Launch Year: 2023\\n. 1 Year Warranty on Product and 2 Years Warranty on Panel\",\"amount\":1,\"__v\":0,\"star\":\"5\"},{\"_id\":\"66518bad5b7e22cfc1571c1a\",\"imageSrc\":\"https://www.reliancedigital.in/medias/HISENSE-55U6G-Smart-LED-492338741-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w3MzI5NHxpbWFnZS9qcGVnfGltYWdlcy9oODYvaDZiLzk3NzkyMzI4MzM1NjYuanBnfDI4NjQ5NDE0ZGRjOWI5NTQ5NDA3NDhiNGRiMWE3NDllN2I0ZjYxNjlmODM1NzRhYTY0NWMwOGM0ZWM4NjMwMzQ\",\"title\":\"Hisense E7K 139 cm (55 inch) QLED Ultra HD (4K) Smart VIDAA TV With Dolby\\nVision and Atmos\",\"Price\":\"₹44990\",\"description\":\". Operating System: VIDAA\\n. Ultra HD (4K) 3840 x 2160 Pixels\\n· Launch Year: 2023\\n. 2 Years Comprehensive Warranty from on orders from 1st April 2024\",\"amount\":1,\"__v\":0,\"star\":\"4\"},{\"_id\":\"66518be55b7e22cfc1571c1c\",\"imageSrc\":\"https://www.reliancedigital.in/medias/Sansui-JSW55ASUHD-Televisions-491973454-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzNDg2OXxpbWFnZS9qcGVnfGltYWdlcy9oMDYvaDhiLzk4NTE0MTc3NTU2NzguanBnfDExMjQ0NzU0NWI4Y2I1ZGVlY2UyODQwMDAzNDVkMjBkYTJiYmZhZmZkMTMyYTI5MTMzMTIxMTAxNWE3YWMyN2Q\",\"title\":\"Sansui 80 cm (32 inch) HD Ready LED Smart Google TV 2023 Edition\",\"Price\":\"₹43990\",\"description\":\". Operating System: Google TV\\n. HD Ready 1366 x 768 Pixels\\n. Launch Year: 2023\\n. 1 Year Comprehensive Warranty on Product\",\"amount\":1,\"__v\":0,\"star\":\"4\"},{\"5\":\"\",\"_id\":\"66518c1b5b7e22cfc1571c1e\",\"imageSrc\":\"https://www.reliancedigital.in/medias/Sony-KD-55X75K-IN5-Television-492912658-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzNzQzOXxpbWFnZS9qcGVnfGltYWdlcy9oYTIvaDFjLzk4Mjg5MzUxMzkzNTguanBnfDA3NmU3MzgwM2IzMmYxZmZmNDY4OGNhY2ZiMDVlMjk4MzY4YmYwZDc5MTFiNzUyNmMwYTAwMzU5Y2FmNTE5Mzc\",\"title\":\"SONY Bravia 138.8 cm (55 inch) Ultra HD (4K) LED Smart Google TV\",\"Price\":\"₹62690\",\"description\":\". Operating System: Google TV\\n. Ultra HD (4K) 3840 x 2160 Pixels\\n. Launch Year: 2021\\n. 1 year Comprehensive warranty by the manufacture from the date of purchase\",\"amount\":1,\"__v\":0,\"star\":\"5\"},{\"_id\":\"66518c795b7e22cfc1571c20\",\"imageSrc\":\"https://www.reliancedigital.in/medias/Samsung-43Q60A-Television-492166301-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1NDkwNXxpbWFnZS9qcGVnfGltYWdlcy9oNDgvaGU1Lzk1NTU4MDQ3NDk4NTQuanBnfDIwOGM2ODQyN2M5OGQ2YmVmNmU0ZTg5NjUxMmVjZDg4MWIzM2QwNTIzYTg3NGE3Mzg4YTY3NmNhNTc4MWIwNmM\",\"title\":\"SAMSUNG Crystal Vision 4K iSmart with Voice Assistant 108 cm (43 inch) Ultra HD\\n(4K) LED Smart Tizen T ...\",\"Price\":\"₹39999\",\"description\":\". Operating System: Tizen\\n. Ultra HD (4K) 3840 x 2160 Pixels\\n. Launch Year: 2023\\n. 1 Year Comprehensive Warranty on Product and 1 Year Additional Warranty on Panel\",\"amount\":1,\"__v\":0,\"star\":\"5\"},{\"_id\":\"66518ca65b7e22cfc1571c22\",\"imageSrc\":\"https://www.reliancedigital.in/medias/Onida-43UIV-R-Television-492579413-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w3NDE3OXxpbWFnZS9qcGVnfGltYWdlcy9oMTEvaGZiLzk4NDczNzMyOTk3NDIuanBnfDQ5Yjc0NDVmYTEzMGEyNzM5MTMyYzZmMTk3ZWY1MDVhMmM2NzJkZDEwZDJiNGE0ZGZmZWZhZDkyZWFmNDE1NTg\",\"title\":\"ONIDA 108 cm (43 inch) Ultra HD (4K) LED Smart Google TV 2023 Edition with\\nDolby Atmos Vision & HDR10\",\"Price\":\"₹29999\",\"description\":\". Operating System: Google TV\\n. Ultra HD (4K) 3840 x 2160 Pixels\\n· Launch Year: 2023\\n. 1 Year Warranty on the Product\",\"amount\":1,\"__v\":0,\"star\":\"4\"}]... (17 more characters)"
+        }
+      },
+      "id": 108,
+      "thread_id": 0,
+      "parent_id": 102,
+      "elapsed": 0.008972400006314274
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/api/order",
+        "request_method": "GET",
+        "headers": {
+          "Host": "localhost:3010",
+          "Connection": "keep-alive",
+          "Sec-Ch-Ua": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"",
+          "Accept": "application/json, text/plain, */*",
+          "Sec-Ch-Ua-Mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+          "Sec-Ch-Ua-Platform": "\"Windows\"",
+          "Origin": "http://localhost:3000",
+          "Sec-Fetch-Site": "same-site",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "http://localhost:3000/",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-US,en;q=0.9",
+          "If-None-Match": "W/\"16f-BH4fWRom6cA1Fbl9p6oj7vClDHI\""
+        },
+        "protocol": "HTTP/1.1",
+        "normalized_path_info": "/order"
+      },
+      "id": 109,
+      "thread_id": 0
+    },
+    {
+      "event": "call",
+      "id": 110,
+      "thread_id": 0,
+      "method_id": "find",
+      "static": false,
+      "receiver": {
+        "class": "Collection",
+        "value": "[Collection orders]",
+        "object_id": 1
+      },
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 86,
+          "name": "filter"
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 87,
+          "name": "options"
+        }
+      ],
+      "defined_class": "orders",
+      "lineno": 1,
+      "path": "mongodb/orders"
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 111,
+      "parent_id": 110,
+      "return_value": {
+        "class": "FindCursor",
+        "value": "[FindCursor Mani_Project_IMR.orders]",
+        "object_id": 88
+      },
+      "elapsed": 0.00005370000144466758
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/api/toplaptop",
+        "request_method": "GET",
+        "headers": {
+          "Host": "localhost:3010",
+          "Connection": "keep-alive",
+          "Sec-Ch-Ua": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"",
+          "Accept": "application/json, text/plain, */*",
+          "Sec-Ch-Ua-Mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+          "Sec-Ch-Ua-Platform": "\"Windows\"",
+          "Origin": "http://localhost:3000",
+          "Sec-Fetch-Site": "same-site",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "http://localhost:3000/",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-US,en;q=0.9",
+          "If-None-Match": "W/\"6c1-Z6JIkNlB81rtF58RQmv+XSOM+tY\""
+        },
+        "protocol": "HTTP/1.1",
+        "normalized_path_info": "/toplaptop"
+      },
+      "id": 112,
+      "thread_id": 0
+    },
+    {
+      "event": "call",
+      "id": 113,
+      "thread_id": 0,
+      "method_id": "find",
+      "static": false,
+      "receiver": {
+        "class": "Collection",
+        "value": "[Collection toplaptops]",
+        "object_id": 5
+      },
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 89,
+          "name": "filter"
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 90,
+          "name": "options"
+        }
+      ],
+      "defined_class": "toplaptops",
+      "lineno": 2,
+      "path": "mongodb/toplaptops"
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 114,
+      "parent_id": 113,
+      "return_value": {
+        "class": "FindCursor",
+        "value": "[FindCursor Mani_Project_IMR.toplaptops]",
+        "object_id": 91
+      },
+      "elapsed": 0.000031299998227041215
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/api/topmobiles",
+        "request_method": "GET",
+        "headers": {
+          "Host": "localhost:3010",
+          "Connection": "keep-alive",
+          "Sec-Ch-Ua": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"",
+          "Accept": "application/json, text/plain, */*",
+          "Sec-Ch-Ua-Mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+          "Sec-Ch-Ua-Platform": "\"Windows\"",
+          "Origin": "http://localhost:3000",
+          "Sec-Fetch-Site": "same-site",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "http://localhost:3000/",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-US,en;q=0.9",
+          "If-None-Match": "W/\"6d7-8pxaSqSnEDZsLPpJg8j1hY2e484\""
+        },
+        "protocol": "HTTP/1.1",
+        "normalized_path_info": "/topmobiles"
+      },
+      "id": 115,
+      "thread_id": 0
+    },
+    {
+      "event": "call",
+      "id": 116,
+      "thread_id": 0,
+      "method_id": "find",
+      "static": false,
+      "receiver": {
+        "class": "Collection",
+        "value": "[Collection topmobiles]",
+        "object_id": 9
+      },
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 92,
+          "name": "filter"
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 93,
+          "name": "options"
+        }
+      ],
+      "defined_class": "topmobiles",
+      "lineno": 3,
+      "path": "mongodb/topmobiles"
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 117,
+      "parent_id": 116,
+      "return_value": {
+        "class": "FindCursor",
+        "value": "[FindCursor Mani_Project_IMR.topmobiles]",
+        "object_id": 94
+      },
+      "elapsed": 0.00003719999949680641
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/api/tv",
+        "request_method": "GET",
+        "headers": {
+          "Host": "localhost:3010",
+          "Connection": "keep-alive",
+          "Sec-Ch-Ua": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"",
+          "Accept": "application/json, text/plain, */*",
+          "Sec-Ch-Ua-Mobile": "?0",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+          "Sec-Ch-Ua-Platform": "\"Windows\"",
+          "Origin": "http://localhost:3000",
+          "Sec-Fetch-Site": "same-site",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "http://localhost:3000/",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-US,en;q=0.9",
+          "If-None-Match": "W/\"1175-7lfSpsYdNLPQuw3WNO6WsK8xGFM\""
+        },
+        "protocol": "HTTP/1.1",
+        "normalized_path_info": "/tv"
+      },
+      "id": 118,
+      "thread_id": 0
+    },
+    {
+      "event": "call",
+      "id": 119,
+      "thread_id": 0,
+      "method_id": "find",
+      "static": false,
+      "receiver": {
+        "class": "Collection",
+        "value": "[Collection tvs]",
+        "object_id": 13
+      },
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 95,
+          "name": "filter"
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 96,
+          "name": "options"
+        }
+      ],
+      "defined_class": "tvs",
+      "lineno": 4,
+      "path": "mongodb/tvs"
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 120,
+      "parent_id": 119,
+      "return_value": {
+        "class": "FindCursor",
+        "value": "[FindCursor Mani_Project_IMR.tvs]",
+        "object_id": 97
+      },
+      "elapsed": 0.00002699999458855018
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 304,
+        "headers": {
+          "X-Powered-By": "Express",
+          "Access-Control-Allow-Origin": "*",
+          "Etag": "W/\"16f-BH4fWRom6cA1Fbl9p6oj7vClDHI\""
+        }
+      },
+      "id": 121,
+      "thread_id": 0,
+      "parent_id": 109,
+      "elapsed": 0.006080699997255579
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 304,
+        "headers": {
+          "X-Powered-By": "Express",
+          "Access-Control-Allow-Origin": "*",
+          "Etag": "W/\"6c1-Z6JIkNlB81rtF58RQmv+XSOM+tY\""
+        }
+      },
+      "id": 122,
+      "thread_id": 0,
+      "parent_id": 112,
+      "elapsed": 0.005620999996608589
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 304,
+        "headers": {
+          "X-Powered-By": "Express",
+          "Access-Control-Allow-Origin": "*",
+          "Etag": "W/\"6d7-8pxaSqSnEDZsLPpJg8j1hY2e484\""
+        }
+      },
+      "id": 123,
+      "thread_id": 0,
+      "parent_id": 115,
+      "elapsed": 0.005944099997577723
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 304,
+        "headers": {
+          "X-Powered-By": "Express",
+          "Access-Control-Allow-Origin": "*",
+          "Etag": "W/\"1175-7lfSpsYdNLPQuw3WNO6WsK8xGFM\""
+        }
+      },
+      "id": 124,
+      "thread_id": 0,
+      "parent_id": 118,
+      "elapsed": 0.005352599997422658
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "parent_id": 90
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "parent_id": 89
+    }
+  ],
+  "version": "1.12",
+  "metadata": {
+    "client": {
+      "name": "appmap-node",
+      "version": "2.23.0",
+      "url": "https://github.com/getappmap/appmap-node"
+    },
+    "language": {
+      "name": "javascript",
+      "engine": "Node.js",
+      "version": "v21.7.3"
+    },
+    "app": "server",
+    "recorder": {
+      "type": "remote",
+      "name": "remote"
+    },
+    "name": "project-map"
+  },
+  "classMap": [
+    {
+      "name": "mongodb",
+      "type": "package",
+      "children": [
+        {
+          "type": "class",
+          "name": "orders",
+          "children": [
+            {
+              "type": "function",
+              "name": "find",
+              "static": false,
+              "location": "mongodb/orders:1"
+            },
+            {
+              "type": "function",
+              "name": "insertOne",
+              "static": false,
+              "location": "mongodb/orders:8"
+            }
+          ]
+        },
+        {
+          "type": "class",
+          "name": "toplaptops",
+          "children": [
+            {
+              "type": "function",
+              "name": "find",
+              "static": false,
+              "location": "mongodb/toplaptops:2"
+            }
+          ]
+        },
+        {
+          "type": "class",
+          "name": "topmobiles",
+          "children": [
+            {
+              "type": "function",
+              "name": "find",
+              "static": false,
+              "location": "mongodb/topmobiles:3"
+            }
+          ]
+        },
+        {
+          "type": "class",
+          "name": "tvs",
+          "children": [
+            {
+              "type": "function",
+              "name": "find",
+              "static": false,
+              "location": "mongodb/tvs:4"
+            }
+          ]
+        },
+        {
+          "type": "class",
+          "name": "users",
+          "children": [
+            {
+              "type": "function",
+              "name": "findOne",
+              "static": false,
+              "location": "mongodb/users:5"
+            },
+            {
+              "type": "function",
+              "name": "find",
+              "static": false,
+              "location": "mongodb/users:6"
+            },
+            {
+              "type": "function",
+              "name": "insertOne",
+              "static": false,
+              "location": "mongodb/users:7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "http",
+      "name": "HTTP server requests",
+      "children": [
+        {
+          "type": "route",
+          "name": "GET /order"
+        },
+        {
+          "type": "route",
+          "name": "GET /toplaptop"
+        },
+        {
+          "type": "route",
+          "name": "GET /topmobiles"
+        },
+        {
+          "type": "route",
+          "name": "GET /tv"
+        },
+        {
+          "type": "route",
+          "name": "OPTIONS /api/signup"
+        },
+        {
+          "type": "route",
+          "name": "POST /signup"
+        },
+        {
+          "type": "route",
+          "name": "OPTIONS /api/login"
+        },
+        {
+          "type": "route",
+          "name": "POST /login"
+        },
+        {
+          "type": "route",
+          "name": "OPTIONS /api/payment"
+        },
+        {
+          "type": "route",
+          "name": "POST /payment"
+        },
+        {
+          "type": "route",
+          "name": "OPTIONS /api/order"
+        },
+        {
+          "type": "route",
+          "name": "POST /order"
+        },
+        {
+          "type": "route",
+          "name": "OPTIONS /api/mail"
+        },
+        {
+          "type": "route",
+          "name": "POST /api/mail"
+        },
+        {
+          "type": "route",
+          "name": "GET /api/toplaptop"
+        }
+      ]
+    },
+    {
+      "type": "external-service",
+      "name": "api.razorpay.com",
+      "children": [
+        {
+          "type": "external-route",
+          "name": "POST https://api.razorpay.com/v1/orders"
+        }
+      ]
+    }
+  ]
+}

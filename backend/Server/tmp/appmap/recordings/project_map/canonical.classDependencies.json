@@ -1,0 +1,62 @@
+[
+  {
+    "caller": "GET /api/toplaptop",
+    "callee": "GET /tv"
+  },
+  {
+    "caller": "GET /api/toplaptop",
+    "callee": "mongodb/toplaptops"
+  },
+  {
+    "caller": "GET /order",
+    "callee": "GET /topmobiles"
+  },
+  {
+    "caller": "GET /order",
+    "callee": "mongodb/orders"
+  },
+  {
+    "caller": "GET /toplaptop",
+    "callee": "GET /order"
+  },
+  {
+    "caller": "GET /toplaptop",
+    "callee": "GET /topmobiles"
+  },
+  {
+    "caller": "GET /toplaptop",
+    "callee": "mongodb/toplaptops"
+  },
+  {
+    "caller": "GET /topmobiles",
+    "callee": "GET /order"
+  },
+  {
+    "caller": "GET /topmobiles",
+    "callee": "GET /toplaptop"
+  },
+  {
+    "caller": "GET /topmobiles",
+    "callee": "mongodb/topmobiles"
+  },
+  {
+    "caller": "GET /tv",
+    "callee": "mongodb/tvs"
+  },
+  {
+    "caller": "POST /login",
+    "callee": "mongodb/users"
+  },
+  {
+    "caller": "POST /order",
+    "callee": "mongodb/orders"
+  },
+  {
+    "caller": "POST /payment",
+    "callee": "POST https://api.razorpay.com/v1/orders"
+  },
+  {
+    "caller": "POST /signup",
+    "callee": "mongodb/users"
+  }
+]

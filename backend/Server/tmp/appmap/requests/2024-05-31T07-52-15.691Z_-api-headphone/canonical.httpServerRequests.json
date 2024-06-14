@@ -1,0 +1,7 @@
+[
+  {
+    "route": "GET /headphone",
+    "parameters": "()",
+    "status": 304
+  }
+]

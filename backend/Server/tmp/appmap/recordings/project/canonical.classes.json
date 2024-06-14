@@ -1,0 +1,9 @@
+[
+  "mongodb/laptops",
+  "mongodb/mobiles",
+  "mongodb/orders",
+  "mongodb/toplaptops",
+  "mongodb/topmobiles",
+  "mongodb/tvs",
+  "mongodb/users"
+]

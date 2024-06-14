@@ -1,0 +1,7 @@
+[
+  {
+    "route": "GET /headphone",
+    "parameters": "(imageSrc,title,Price,description,amount,star)",
+    "status": 200
+  }
+]

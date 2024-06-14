@@ -1,0 +1,162 @@
+[
+  {
+    "name": "mongodb",
+    "type": "package",
+    "children": [
+      {
+        "type": "class",
+        "name": "orders",
+        "children": [
+          {
+            "type": "function",
+            "name": "find",
+            "static": false,
+            "location": "mongodb/orders:1"
+          },
+          {
+            "type": "function",
+            "name": "insertOne",
+            "static": false,
+            "location": "mongodb/orders:8"
+          }
+        ]
+      },
+      {
+        "type": "class",
+        "name": "toplaptops",
+        "children": [
+          {
+            "type": "function",
+            "name": "find",
+            "static": false,
+            "location": "mongodb/toplaptops:2"
+          }
+        ]
+      },
+      {
+        "type": "class",
+        "name": "topmobiles",
+        "children": [
+          {
+            "type": "function",
+            "name": "find",
+            "static": false,
+            "location": "mongodb/topmobiles:3"
+          }
+        ]
+      },
+      {
+        "type": "class",
+        "name": "tvs",
+        "children": [
+          {
+            "type": "function",
+            "name": "find",
+            "static": false,
+            "location": "mongodb/tvs:4"
+          }
+        ]
+      },
+      {
+        "type": "class",
+        "name": "users",
+        "children": [
+          {
+            "type": "function",
+            "name": "findOne",
+            "static": false,
+            "location": "mongodb/users:5"
+          },
+          {
+            "type": "function",
+            "name": "find",
+            "static": false,
+            "location": "mongodb/users:6"
+          },
+          {
+            "type": "function",
+            "name": "insertOne",
+            "static": false,
+            "location": "mongodb/users:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "http",
+    "name": "HTTP server requests",
+    "children": [
+      {
+        "type": "route",
+        "name": "GET /order"
+      },
+      {
+        "type": "route",
+        "name": "GET /toplaptop"
+      },
+      {
+        "type": "route",
+        "name": "GET /topmobiles"
+      },
+      {
+        "type": "route",
+        "name": "GET /tv"
+      },
+      {
+        "type": "route",
+        "name": "OPTIONS /api/signup"
+      },
+      {
+        "type": "route",
+        "name": "POST /signup"
+      },
+      {
+        "type": "route",
+        "name": "OPTIONS /api/login"
+      },
+      {
+        "type": "route",
+        "name": "POST /login"
+      },
+      {
+        "type": "route",
+        "name": "OPTIONS /api/payment"
+      },
+      {
+        "type": "route",
+        "name": "POST /payment"
+      },
+      {
+        "type": "route",
+        "name": "OPTIONS /api/order"
+      },
+      {
+        "type": "route",
+        "name": "POST /order"
+      },
+      {
+        "type": "route",
+        "name": "OPTIONS /api/mail"
+      },
+      {
+        "type": "route",
+        "name": "POST /api/mail"
+      },
+      {
+        "type": "route",
+        "name": "GET /api/toplaptop"
+      }
+    ]
+  },
+  {
+    "type": "external-service",
+    "name": "api.razorpay.com",
+    "children": [
+      {
+        "type": "external-route",
+        "name": "POST https://api.razorpay.com/v1/orders"
+      }
+    ]
+  }
+]
