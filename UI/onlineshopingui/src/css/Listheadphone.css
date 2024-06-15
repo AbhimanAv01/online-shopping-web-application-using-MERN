@@ -1,0 +1,55 @@
+.main-div {
+    margin: 0%;
+    
+  }
+  
+  .main-con {
+    margin-top: 12% !important;
+  }
+  
+  .headphone-product-image{
+    height: 65% !important;
+    width: 70%  !important;
+    margin-left: 10%;
+    margin-top: 8%;
+  }
+  
+  .headphone-vid-con{
+    margin-left: 22%;
+    display: inline-flex;
+  }
+  .headphone-vid-add-img {
+    width: 48%;
+    margin-top: 0px;
+    margin-left: 0%;
+    margin-bottom: 2%;
+    background-color: black;
+  }
+  .card {
+    margin-bottom: 2%;
+  }
+  
+  .card-body {
+    margin-top: -1%;
+    background-color: rgb(247, 244, 244) !important;
+  }
+  
+  .price-tag {
+    font-weight: bolder;
+    font-size: large;
+    margin-bottom: -1.5% !important;
+    padding: 20px 5px;
+  }
+  
+  .delivery {
+    font-size: small;
+  }
+  
+  
+  
+  
+  
+  .lap-add-cart-btn{
+    margin-top: 20px !important;
+  }
+  

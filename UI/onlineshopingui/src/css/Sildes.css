@@ -1,0 +1,27 @@
+.carousel-container .carousel-control-prev,
+.carousel-container .carousel-control-next {
+  opacity: 0; /* Initially hide the buttons */
+}
+
+.carousel-container:hover .carousel-control-prev,
+.carousel-container:hover .carousel-control-next {
+  opacity: 1; /* Show the buttons on hover */
+}
+
+
+
+.carousel-container{
+    display: block;
+    width: 1700px; 
+    margin-left: 100px;
+    margin-top: 220px;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 570px;
+    
+   
+}
+
+d-block{
+  height: 2500px;
+}

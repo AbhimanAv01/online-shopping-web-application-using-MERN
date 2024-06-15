@@ -1,0 +1,131 @@
+.c1{
+   
+}
+
+.check-card-body{
+    height: auto !important;;
+    
+    border: 1px solid rgb(180, 177, 177);
+}
+
+.top-tittle{
+    font-size:large;
+    font-weight: 600;
+}
+.check-con{
+    
+    justify-content: center;
+    align-items: center;
+   
+    padding: 4% 8% 8%;
+    
+}
+.check-header{
+    border: 1px solid rgb(180, 177, 177);
+    background-color: rgba(148, 181, 243, 0.315) !important;
+   
+
+}
+
+.address-radio{
+    margin: 20px;
+    padding-top: 5px;
+}
+
+.t1{
+    font-size:14px;   
+    font-weight: 600;
+    margin: 5px;
+    margin-top: 15px;
+}
+
+.t2{
+    font-size:14px;   
+    font-weight: 400;
+    padding-left:1.5%;
+}
+
+.add-textarea{
+    height: 80px;
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid rgb(180, 177, 177);
+    margin-bottom:1% ;
+    padding: 8px;
+}
+
+.check-add-btn{
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 238, 0) !important;;
+  border-radius: 10px;
+  border: 1px solid rgb(180, 177, 177);
+  padding:0.3% 2% 0.3%;
+  font-size:13px;   
+  font-weight: 600;
+  color: black;
+}
+
+.devlivery-span{
+    font-size: larger;
+    font-weight: 800;
+}
+.devlivery-span-d1{
+    font-size: larger;
+    font-weight: 800;
+    color: rgb(11, 145, 11);
+}
+
+.pay-span-div{
+    margin-top:    30px;
+    margin-bottom: 30px;
+}
+
+.payment-btn{
+  height: 39.5px;
+  width: 150px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(11, 240, 11);
+  font-weight: 500;
+  border-radius: 10px;
+  font-size: larger;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+
+
+.payment-img{
+    height: 100px !important;
+    width: auto;
+}
+
+.payment-cart-title{
+margin: 35px;
+font-weight: 500;
+font-size: larger;
+
+}
+
+
+.payment-cart-amount{
+    margin: 25px;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: small;
+}
+
+.payment-cart-price{
+   
+    
+    font-weight: 500;
+    font-size: small;
+    margin: 35px !important;
+   
+}
+.payment-ttlprice-con{
+    font-weight: 500;
+    font-size: large;
+    margin: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

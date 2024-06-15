@@ -1,0 +1,40 @@
+*{
+    font-family: "Rubik", sans-serif;
+}
+.categories-con {
+    position: absolute;
+    margin-top:30px;
+  }
+.me-auto {
+  font-weight: 200;
+  font-size: large;
+}
+
+.nav-itmes {
+  color: rgb(255, 255, 255);
+  width: 150px;
+  text-align: center;
+  font-weight: 400;
+  margin:0px;
+  text-decoration: none;
+  
+}
+
+.nav-itmes:hover {
+    color: rgb(219, 205, 10);
+}
+
+.all-cate {
+  background-color: rgb(255, 238, 0);
+  color: rgb(0, 0, 0);
+  width: 150px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  border-radius: 6px;
+  font-weight: 550;
+  height: 30px;
+}
+
+

@@ -1,0 +1,48 @@
+.gif-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #e7d9cc; /* Light background color */
+  }
+  
+  .gif {
+    width: 100%; /* Adjust the width as needed */
+    max-width: 800px; /* Limit the maximum width */
+    height: 600px;
+    border-radius: 10px; /* Add some border radius */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    animation: fadeIn 1s ease; /* Fade-in animation */
+  }
+  
+  h1 {
+    margin: 20px 0; /* Adjust the margin */
+    font-size: 44px; /* Increase the font size */
+    color: #333; /* Darker text color */
+    text-align: center;
+    animation: slideIn 1s ease; /* Slide-in animation */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  

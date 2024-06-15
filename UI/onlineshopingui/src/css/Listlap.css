@@ -1,0 +1,54 @@
+.main-div {
+  margin: 0%;
+  
+}
+
+.main-con {
+  margin-top: 12% !important;
+}
+
+.product-image {
+  height: 75% !important;
+  width: 80%  !important;
+  margin-left: 10%;
+  margin-top: 8%;
+}
+
+.vid-con {
+  margin-left: 16%;
+  display: inline-flex;
+}
+.vid-add-img {
+  width: 53.5%;
+  margin-top: -3.7%;
+  margin-left: 0%;
+  margin-bottom: 2%;
+  background-color: black;
+}
+.card {
+  margin-bottom: 2%;
+}
+
+.card-body {
+  margin-top: -1%;
+  background-color: rgb(247, 244, 244) !important;
+}
+
+.price-tag {
+  font-weight: bolder;
+  font-size: large;
+  margin-bottom: -1.5% !important;
+  padding: 20px 5px;
+}
+
+.delivery {
+  font-size: small;
+}
+
+
+
+
+
+.lap-add-cart-btn{
+  margin-top: 20px !important;
+}

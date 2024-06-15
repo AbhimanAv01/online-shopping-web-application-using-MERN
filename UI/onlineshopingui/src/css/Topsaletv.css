@@ -1,0 +1,91 @@
+.topsale-main-con{
+    margin-top: 0.5%;
+  }
+  
+  .tstitle-text-container {
+    margin-top: 7%;
+    width: auto;
+    height: auto;
+  
+  }
+  .tsctitle,
+  .txt {
+    text-overflow: ellipsis;
+    white-space: normal;
+  }
+  
+  .tsctitle {
+    font-size: large;
+  }
+  .txt {
+    font-size: 12px;
+    
+  }
+  .price{
+  margin-bottom: 1%;
+  }
+  
+  .tv-tsshipping-img {
+    width: auto;
+    height: auto;
+    margin-bottom: -15%;
+    margin-top: -15%;
+    margin-right: 10px;
+    
+  }
+  
+  .tscards-con {
+    display: inline-block;
+    margin-left: 4.5%;
+    height: auto;
+    object-fit: cover;
+   
+  }
+  .tscards{
+    height: 98%!important;
+    position: relative;
+    padding: 10px;
+  }
+  
+  .tv-scrollable-container {
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 26rem;
+    white-space: nowrap;
+   
+    display: flex;
+    scrollbar-color: transparent transparent;
+    margin-bottom: 25px;
+    
+  }
+  
+  .header {
+    margin-left: 11vh;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+  }
+  .best-selling-lap {
+    font-weight: 600;
+    font-size: x-large;
+  }
+  
+  .addcart-btn {
+    border-radius: 12px;
+    border: none;
+    background-color: rgb(247, 142, 37);
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 50%; /* Move to the middle horizontally */
+    transform: translateX(-50%); /* Adjust position to center */
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s ease;
+    padding-left: 18%;
+    padding-right: 18%;
+  }
+  .card:hover .addcart-btn {
+    visibility: visible; /* Visible on hover */
+    opacity: 1; /* Fully visible */
+  }
+  

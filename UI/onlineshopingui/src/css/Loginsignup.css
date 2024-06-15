@@ -1,0 +1,253 @@
+.con {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    position: relative;
+    overflow: hidden;
+    width:90%;
+    max-width: 100%;
+    min-height: 700px;
+    display: flex;
+    margin-top: 13%;
+    margin-right:25%;
+    margin-left:5%;
+   
+    
+}
+
+.signup-con, .signin-con{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    transition: all 0.6s ease-in-out;
+    left: 0;
+   
+}
+
+.signup-con{
+    width: 50%;
+    opacity: 0;
+    z-index: 1;
+}
+
+.signin-con{
+    width: 50%;
+    
+    z-index: 2;
+}
+
+.login-form {
+    background-color: #ffffff;
+    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 160px 120px;
+    height: 100%;
+    text-align: center;
+}
+
+
+
+.login-h1 {
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.login-p {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    margin: 20px 0 30px
+}
+
+
+.login-input {
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+}
+.forgot-pass {
+    color: #aab6aa;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 15px 0;
+}
+
+
+
+.all-btn{
+    border-radius: 20px;
+    border: 1px solid #0a0e08;
+    background-color: #3b326d !important;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.all-btn:active {
+    transform: scale(0.95);
+}
+
+#signIn,#signUp{
+background-color: transparent;
+border: 2px solid #000000;
+}
+
+
+.con.right-panel-active .signin-con{
+    transform: translateX(100%);
+
+   
+}
+
+.con.right-panel-active .signup-con{
+    transform: translateX(100%);
+    opacity: 1;
+    z-index: 5;
+}
+
+.overlay-con {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    transition: transform 0.6s ease-in-out;
+    z-index: 100;
+   
+}
+
+.con.right-panel-active .overlay-con{
+    transform: translateX(-100%);
+}
+
+
+
+.overlay {
+    background: linear-gradient(to right, #0e1a5e, #f55a12);
+ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    color: #ffffff;
+    position: relative;
+    left: -100%;
+    height: 100%;
+    width: 200%;
+    transform: translateX(0);
+    transition: transform 0.6s ease-in-out;
+}
+
+.con.right-panel-active .overlay{
+    transform: translateX(50%);
+}
+
+.left-overlay-panel,.right-overlay-panel{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    transform: translateX(0);
+    transition: transform 0.6s ease-in-out;
+    margin-left: 120px;
+
+}
+
+
+.left-overlay-panel{
+    transform: translateX(-20%);
+}
+
+.right-overlay-panel{
+    right: 0;
+    transform: translateX(0);
+}
+
+.con.right-panel-active.left-overlay-panel{
+    transform: translateX(0);
+}
+.con.right-panel-active.right-overlay-panel{
+    transform: translateX(20%);
+}
+
+
+.all-btn:focus {
+    outline: none;
+}
+
+.ghost-button {
+    border-radius: 20px;
+    border: 1px solid #50da26;
+    background-color: #ffffff !important;
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* 
+.signin-container {
+    z-index: 2;
+}
+
+
+
+
+
+
+
+
+.overlay-container.active {
+    transform: translateX(-100%);
+}
+
+
+
+.overlay-container.active .overlay {
+   
+}
+
+.overlay-panel {
+    
+}
+
+.left-overlay-panel {
+    
+}
+
+.left-overlay-panel.active {
+    
+}
+
+.right-overlay-panel {
+    
+}
+
+.right-overlay-panel.active {
+    
+}
+ */

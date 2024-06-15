@@ -1,0 +1,80 @@
+.main-footer-con{
+    height: 400px;
+    background:  linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(35,19,122,1) 44%, rgba(0,44,255,1) 100%);
+    margin-top: 25px;
+    padding-left: 80px;
+
+}
+.footer-con{
+    
+    
+}
+
+.care{
+
+}
+
+.care-text{
+    color: rgb(255, 255, 255); 
+}
+.care-text2{
+    color: rgb(204, 101, 0);
+}
+.care-con{
+
+    display: flex;
+   
+}
+
+.care-icon{
+ 
+}
+
+.care-text-con{
+    margin-top: 10px;
+}
+.address-text{
+    color:rgb(108, 121, 133) ;
+}
+.email-con{
+    margin-top: 20px;
+}
+.feedback{
+    margin-left: 1000px;
+    margin-top: 40px;
+   
+}
+.feedback-text{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+.main-footer-con{
+    display: flex;
+}
+.feedback-input{
+    
+   background-color:transparent;
+    border: none;
+    border-bottom: 1px solid rgb(209, 202, 202); 
+    margin-top: 20px;
+    
+
+    
+}
+
+.feedback-btn{
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left:15px ;
+    padding-right:15px ;
+    background-color:rgb(204, 101, 0) ;
+    color: rgb(247, 247, 247);
+    border: none;
+    outline: none;
+}
+
+.pcard{
+    width: 300px;
+    margin-top:150px ;
+}

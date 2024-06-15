@@ -1,0 +1,50 @@
+.add-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    margin-left:1vh;
+    margin-top: 2%;
+    margin-bottom: 4%;
+   
+  
+  }
+  
+  .add-img {
+    max-width: 100%; 
+    height: auto;
+    margin: 5px; 
+  }
+
+  .mid-add-container{
+    padding-left: 75px;
+    height: 13vh;
+    margin-left: 3vh;
+    margin-top: 2%;
+    margin-bottom: 4%;
+   
+
+  }
+
+  .add-mid-img{
+    width: 95.5%; 
+    height: 120px;
+    
+
+  }
+
+  .mid-Add4-container{
+    padding-left: 75px;
+    height: 34vh;
+    margin-left: 1.5vh;
+    margin-top: 2%;
+    margin-bottom: 4%;
+   
+
+  }
+
+  .add-Add4-img{
+    width: 1720px; 
+    height: auto;
+  }
+  

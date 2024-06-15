@@ -1,0 +1,94 @@
+/* Cart.css */
+.c1 {
+    height: 60vh;
+    margin-top: 5%;
+    margin-right: 8vh;
+    border-radius: 15px;
+    width: 500px !important;
+    overflow-x: hidden;
+    overflow-y: auto;
+    white-space: nowrap;
+    scrollbar-color: transparent transparent;
+}
+
+.offcanvas-backdrop.show {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.cart-box, .cart-img {
+    display: flex;
+    margin-bottom: 0.2vh;
+   
+}
+.cart-box{
+    border-bottom: 1px solid rgb(228, 206, 206); /* Add border bottom to cart-box */
+}
+.img {
+    height: 55px;
+    width: 70px;
+}
+
+.cart-count {
+    padding: 1vh 2vh;
+}
+
+.cart-title {
+    font-size: small;
+    padding: 2vh;
+}
+
+.count-btn {
+    border: none;
+    border-radius: 20px;
+    padding: 0.5vh 1vh;
+    margin: 0 1vh;
+}
+
+.cart-amount {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.cart-price {
+    padding-top: 1vh;
+}
+
+.cart-remove {
+    border: none;
+    border-radius: 20px;
+    margin-left: 2vh;
+}
+
+.ttlprice-con {
+   
+    padding: 15px;
+    margin-left: 60%;
+    
+
+}
+
+.price-chck-con {
+    position: sticky;
+    bottom: 0;
+    background-color: white;
+    margin-bottom: 5%;
+    width: 101%;
+    margin-left: 0%;
+    z-index: 1;
+   
+   
+}
+
+.chckout-con{
+
+}
+.chckout,.cancle{
+    border: solid;
+    color: white;
+    padding: 1vh 8.5vh;
+    
+    background-color: rgb(53, 45, 29);
+}
+.cancle{
+    background-color: orange;
+}

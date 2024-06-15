@@ -1,0 +1,21 @@
+.yourorder-box, .cart-img {
+   
+    margin-bottom: 0.2vh;
+   
+}
+.yourorder-box{
+    border-bottom: 1px solid rgb(228, 206, 206); /* Add border bottom to cart-box */
+}
+
+.yourorder-count{
+    margin: 15px;
+}
+
+.yourorder-price{
+    margin: 15px;
+}
+
+.yourorder-ddate{
+    margin: 10px;
+   
+}
